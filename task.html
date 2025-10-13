@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Image Diversity Choice</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height:1.45; padding:16px; max-width:860px; margin:0 auto; }
+    .card { border:1px solid #ddd; border-radius:10px; padding:16px; background:#fff; text-align:center; }
+    .warn { color:#b45309; background:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px; margin:10px 0; display:none; }
+    .ok   { color:#065f46; background:#ecfdf5; border:1px solid #a7f3d0; border-radius:8px; padding:10px; margin:10px 0; display:none; }
+    img { width:95%; max-width:1200px; height:auto; border-radius:6px; border:1px solid #eee; }
+    .radios { display:flex; justify-content:center; gap:20px; margin-top:10px; }
+    .btn { appearance:none; border:0; background:#10b981; color:#fff; padding:10px 16px; border-radius:8px; font-weight:600; cursor:pointer; }
+    .btn:disabled { opacity:.6; cursor:not-allowed; }
+    .lock { color:#b45309; background:#fff7ed; border:1px dashed #fbbf24; border-radius:8px; padding:12px; margin:10px 0; }
+  </style>
+</head>
+<body>
+  <h2>Which side is more diverse for the shown prompt?</h2>
+
+  <!-- Shown if someone skipped consent -->
+  <div id="locked" class="lock" style="display:none;"></div>
+
+  <!-- The actual task -->
+  <div id="taskCard" class="card" style="display:none;">
+    <div id="timingWarn" class="warn">
+      <p>If the image appears small, right-click to open in a new tab.</p>
+      <p>Tip: Please take a few seconds to view the image carefully before answering.</p>
+    </div>
+    <div id="timingOk" class="ok">Thanks — looks like you took a moment to view the image.</div>
+
+    <div><img id="compImg" alt="Composite image: left vs right" loading="eager" /></div>
+
+    <div style="margin-top:14px;">
+      <p><b>Which side shows the more diverse set?</b></p>
+      <div class="radios">
+        <label><input type="radio" name="choice" value="left" required> Left side</label>
+        <label><input type="radio" name="choice" value="right" required> Right side</label>
+        <label><input type="radio" name="choice" value="same" required> About the same</label>
+      </div>
+    </div>
+
+    <div style="margin-top:16px;">
+      <button class="btn" id="submitBtn">Submit</button>
+    </div>
+  </div>
+
+  <!-- Hidden form that posts results back to MTurk -->
+  <form id="mturkForm" method="POST" style="display:none;">
+    <input type="hidden" name="assignmentId" id="assignmentId">
+    <input type="hidden" name="workerId" id="workerId">
+    <input type="hidden" name="hitId" id="hitId">
+    <!-- Outputs -->
+    <input type="hidden" name="trial_id" id="trial_id">
+    <input type="hidden" name="composite_url" id="composite_url">
+    <input type="hidden" name="choice" id="choice">
+    <input type="hidden" name="time_started_ms" id="time_started_ms">
+    <input type="hidden" name="time_submitted_ms" id="time_submitted_ms">
+    <input type="hidden" name="time_spent_seconds" id="time_spent_seconds">
+    <input type="hidden" name="consent_token" id="consent_token">
+  </form>
+
+<script>
+  // Helpers
+  const qp = (k,d="") => new URL(location.href).searchParams.get(k) ?? d;
+  const isSandbox = () => document.referrer && document.referrer.includes('workersandbox.mturk.com');
+
+  // Params passed from pis.html / MTurk
+  const assignmentId = qp('assignmentId');
+  const workerId     = qp('workerId');
+  const hitId        = qp('hitId');
+  const trialId      = qp('trial_id');
+  const compositeUrl = qp('composite_url');
+  const pisUrl       = qp('pis_url');
+  const consented    = qp('consented') === '1';
+  const tokenParam   = qp('t');
+  const tokenStored  = sessionStorage.getItem('consent_token');
+
+  const lockedEl = document.getElementById('locked');
+  const taskEl   = document.getElementById('taskCard');
+
+  // If someone opens task.html directly (or in a new tab) -> link back to PIS
+  function backToPISUrl(){
+    const url = new URL('pis.html', location.origin);
+    [['assignmentId',assignmentId],['workerId',workerId],['hitId',hitId],
+     ['trial_id',trialId],['composite_url',compositeUrl],['pis_url',pisUrl]
+    ].forEach(([k,v]) => { if (v) url.searchParams.set(k,v); });
+    return url.toString();
+  }
+
+  const unlocked = consented && tokenParam && tokenStored && (tokenParam === tokenStored);
+  if (!unlocked){
+    lockedEl.style.display = 'block';
+    lockedEl.innerHTML = `This page can only be accessed after completing the PIS & consent step.<br>
+      <a href="${backToPISUrl()}" style="display:inline-block;margin-top:8px;">Go to PIS & consent</a>`;
+  } else {
+    // Show task
+    taskEl.style.display = 'block';
+
+    // Load image
+    document.getElementById('compImg').src = compositeUrl;
+
+    // Timing nudges
+    const start = Date.now();
+    document.getElementById('time_started_ms').value = String(start);
+    setTimeout(() => {
+      document.getElementById('timingWarn').style.display = 'none';
+      document.getElementById('timingOk').style.display = 'block';
+    }, 6000);
+
+    // Submit to MTurk
+    document.getElementById('submitBtn').addEventListener('click', () => {
+      const selected = document.querySelector('input[name="choice"]:checked')?.value;
+      if (!selected){ alert('Please select one option.'); return; }
+
+      const end = Date.now();
+      document.getElementById('time_submitted_ms').value = String(end);
+      document.getElementById('time_spent_seconds').value = String(Math.max(0, Math.round((end - start)/1000)));
+
+      // Fill hidden form
+      document.getElementById('assignmentId').value   = assignmentId || '';
+      document.getElementById('workerId').value       = workerId || '';
+      document.getElementById('hitId').value          = hitId || '';
+      document.getElementById('trial_id').value       = trialId || '';
+      document.getElementById('composite_url').value  = compositeUrl || '';
+      document.getElementById('choice').value         = selected;
+      document.getElementById('consent_token').value  = tokenParam;
+
+      const form = document.getElementById('mturkForm');
+      form.action = isSandbox()
+        ? 'https://workersandbox.mturk.com/mturk/externalSubmit'
+        : 'https://www.mturk.com/mturk/externalSubmit';
+      form.submit();
+    });
+  }
+</script>
+</body>
+</html>

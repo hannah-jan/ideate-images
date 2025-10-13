@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>PIS & Consent</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height:1.45; padding:16px; max-width:860px; margin:0 auto; }
+    .card { border:1px solid #ddd; border-radius:10px; padding:16px; background:#fff; }
+    .row { margin-top:12px; }
+    .qgroup { display:flex; gap:14px; margin:6px 0; }
+    .btn { appearance:none; border:0; background:#0ea5e9; color:#fff; padding:10px 16px; border-radius:8px; font-weight:600; cursor:pointer; }
+    .warn { color:#b45309; background:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px; margin:10px 0; display:none; }
+    iframe { width:100%; height:380px; border:1px solid #ddd; border-radius:8px; }
+  </style>
+</head>
+<body>
+  <h2>Participant Information Sheet (PIS)</h2>
+  <div class="card">
+    <p>Please read the PIS, tick the consent box, and answer two quick questions. Then click <b>Continue</b>.</p>
+
+    <!-- PIS viewer/link -->
+    <div class="row">
+      <iframe id="pisFrame" src="" title="PIS PDF (if it doesn't render, use the link below)"></iframe>
+      <div class="row"><a id="pisLink" target="_blank" rel="noopener">Open PIS in new tab</a></div>
+    </div>
+
+    <!-- Consent + 2 checks -->
+    <div class="row">
+      <label><input type="checkbox" id="consent"> I confirm I have read the PIS and agree to take part. Participation is voluntary and anonymous.</label>
+    </div>
+    <div class="row">
+      <p><b>Quick check:</b></p>
+      <div>1) Will any identifiable personal data be collected?</div>
+      <div class="qgroup">
+        <label><input type="radio" name="q_ident" value="no"> No</label>
+        <label><input type="radio" name="q_ident" value="yes"> Yes</label>
+      </div>
+      <div>2) Can I stop at any time by closing the window?</div>
+      <div class="qgroup">
+        <label><input type="radio" name="q_withdraw" value="yes"> Yes</label>
+        <label><input type="radio" name="q_withdraw" value="no"> No</label>
+      </div>
+    </div>
+
+    <div id="msg" class="warn"></div>
+    <div class="row"><button id="continueBtn" class="btn">Continue to the task</button></div>
+  </div>
+
+<script>
+  // Helpers
+  const qp = (k,d="") => new URL(location.href).searchParams.get(k) ?? d;
+  const showMsg = t => { const m=document.getElementById('msg'); m.textContent=t; m.style.display='block'; };
+
+  // MTurk auto-params
+  const assignmentId = qp('assignmentId');
+  const workerId     = qp('workerId');
+  const hitId        = qp('hitId');
+
+  // Your trial vars
+  const trialId      = qp('trial_id');
+  const compositeUrl = qp('composite_url');
+  const pisUrl       = qp('pis_url','');  // your PIS PDF (e.g., GitHub raw or S3)
+
+  // Wire the PDF
+  if (pisUrl){
+    document.getElementById('pisFrame').src = pisUrl;
+    const a = document.getElementById('pisLink'); a.href = pisUrl; a.textContent = 'Open PIS (PDF)';
+  } else {
+    document.getElementById('pisFrame').style.display = 'none';
+    const a = document.getElementById('pisLink'); a.href = '#'; a.textContent = 'PIS link not provided';
+  }
+
+  // Validate & continue
+  document.getElementById('continueBtn').addEventListener('click', () => {
+    const consent = document.getElementById('consent').checked;
+    const ident   = document.querySelector('input[name="q_ident"]:checked')?.value;
+    const wd      = document.querySelector('input[name="q_withdraw"]:checked')?.value;
+    if (!consent) return showMsg('Please tick the consent confirmation.');
+    if (ident !== 'no' || wd !== 'yes') return showMsg('Please answer the two PIS questions correctly.');
+
+    // Create a short token in this tab
+    const token = Math.random().toString(36).slice(2);
+    sessionStorage.setItem('consent_token', token);
+
+    // Redirect to task.html with all params
+    const url = new URL('task.html', location.origin);
+    [['assignmentId',assignmentId],['workerId',workerId],['hitId',hitId],
+     ['trial_id',trialId],['composite_url',compositeUrl],['pis_url',pisUrl],
+     ['consented','1'],['t',token]
+    ].forEach(([k,v]) => { if (v) url.searchParams.set(k,v); });
+    location.href = url.toString();
+  });
+</script>
+</body>
+</html>
