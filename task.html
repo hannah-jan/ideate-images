@@ -72,7 +72,7 @@
   const hitId        = qp('hitId');
   const trialId      = qp('trial_id');
   const compositeUrl = qp('composite_url');
-  const pisUrl       = qp('pis_url');
+  const pisUrl       = qp('pis_url'); // not strictly needed here, but we pass it back link
   const consented    = qp('consented') === '1';
   const tokenParam   = qp('t');
   const tokenStored  = sessionStorage.getItem('consent_token');
@@ -80,13 +80,20 @@
   const lockedEl = document.getElementById('locked');
   const taskEl   = document.getElementById('taskCard');
 
-  // If someone opens task.html directly (or in a new tab) -> link back to PIS
+  // Build a safe link back to PIS (keeps /ideate-images/ path)
   function backToPISUrl(){
-    const url = new URL('pis.html', window.location.href);
-    [['assignmentId',assignmentId],['workerId',workerId],['hitId',hitId],
-     ['trial_id',trialId],['composite_url',compositeUrl],['pis_url',pisUrl]
-    ].forEach(([k,v]) => { if (v) url.searchParams.set(k,v); });
-    return url.toString();
+    const u = new URL(window.location.href);
+    u.pathname = u.pathname.replace(/[^/]+$/, 'pis.html');
+    u.search = '';
+    [
+      ['assignmentId', assignmentId],
+      ['workerId',     workerId],
+      ['hitId',        hitId],
+      ['trial_id',     trialId],
+      ['composite_url',compositeUrl],
+      ['pis_url',      pisUrl]
+    ].forEach(([k,v]) => { if (v) u.searchParams.set(k, v); });
+    return u.toString();
   }
 
   const unlocked = consented && tokenParam && tokenStored && (tokenParam === tokenStored);
