@@ -14,6 +14,7 @@
     .btn { appearance:none; border:0; background:#10b981; color:#fff; padding:10px 16px; border-radius:8px; font-weight:600; cursor:pointer; }
     .btn:disabled { opacity:.6; cursor:not-allowed; }
     .lock { color:#b45309; background:#fff7ed; border:1px dashed #fbbf24; border-radius:8px; padding:12px; margin:10px 0; }
+    .done { margin-top:14px; display:none; }
   </style>
 </head>
 <body>
@@ -44,35 +45,24 @@
     <div style="margin-top:16px;">
       <button class="btn" id="submitBtn">Submit</button>
     </div>
-  </div>
 
-  <!-- Hidden form that posts results back to MTurk -->
-  <form id="mturkForm" method="POST" style="display:none;">
-    <input type="hidden" name="assignmentId" id="assignmentId">
-    <input type="hidden" name="workerId" id="workerId">
-    <input type="hidden" name="hitId" id="hitId">
-    <!-- Outputs -->
-    <input type="hidden" name="trial_id" id="trial_id">
-    <input type="hidden" name="composite_url" id="composite_url">
-    <input type="hidden" name="choice" id="choice">
-    <input type="hidden" name="time_started_ms" id="time_started_ms">
-    <input type="hidden" name="time_submitted_ms" id="time_submitted_ms">
-    <input type="hidden" name="time_spent_seconds" id="time_spent_seconds">
-    <input type="hidden" name="consent_token" id="consent_token">
-  </form>
+    <div id="doneMsg" class="done">
+      <h3>Thanks — your response was recorded.</h3>
+      <p>If this page is not embedded in MTurk, you may now close the tab.</p>
+    </div>
+  </div>
 
 <script>
   // Helpers
   const qp = (k,d="") => new URL(location.href).searchParams.get(k) ?? d;
-  const isSandbox = () => document.referrer && document.referrer.includes('workersandbox.mturk.com');
 
-  // Params passed from pis.html / MTurk
-  const assignmentId = qp('assignmentId');
+  // Params passed from pis.html
+  const assignmentId = qp('assignmentId'); // may be empty in iframe method; MTurk outer page has it
   const workerId     = qp('workerId');
   const hitId        = qp('hitId');
   const trialId      = qp('trial_id');
   const compositeUrl = qp('composite_url');
-  const pisUrl       = qp('pis_url'); // not strictly needed here, but we pass it back link
+  const pisUrl       = qp('pis_url');
   const consented    = qp('consented') === '1';
   const tokenParam   = qp('t');
   const tokenStored  = sessionStorage.getItem('consent_token');
@@ -80,7 +70,7 @@
   const lockedEl = document.getElementById('locked');
   const taskEl   = document.getElementById('taskCard');
 
-  // Build a safe link back to PIS (keeps /ideate-images/ path)
+  // Build safe link back to PIS (keeps /ideate-images/ path)
   function backToPISUrl(){
     const u = new URL(window.location.href);
     u.pathname = u.pathname.replace(/[^/]+$/, 'pis.html');
@@ -110,35 +100,41 @@
 
     // Timing nudges
     const start = Date.now();
-    document.getElementById('time_started_ms').value = String(start);
     setTimeout(() => {
       document.getElementById('timingWarn').style.display = 'none';
       document.getElementById('timingOk').style.display = 'block';
     }, 6000);
 
-    // Submit to MTurk
+    // Submit -> send to parent MTurk page via postMessage
     document.getElementById('submitBtn').addEventListener('click', () => {
       const selected = document.querySelector('input[name="choice"]:checked')?.value;
       if (!selected){ alert('Please select one option.'); return; }
 
       const end = Date.now();
-      document.getElementById('time_submitted_ms').value = String(end);
-      document.getElementById('time_spent_seconds').value = String(Math.max(0, Math.round((end - start)/1000)));
+      const payload = {
+        trial_id:           trialId || '',
+        composite_url:      compositeUrl || '',
+        choice:             selected,
+        time_started_ms:    String(start),
+        time_submitted_ms:  String(end),
+        time_spent_seconds: String(Math.max(0, Math.round((end - start)/1000))),
+        consent_token:      tokenParam || '',
+        pis_url:            pisUrl || ''
+      };
 
-      // Fill hidden form
-      document.getElementById('assignmentId').value   = assignmentId || '';
-      document.getElementById('workerId').value       = workerId || '';
-      document.getElementById('hitId').value          = hitId || '';
-      document.getElementById('trial_id').value       = trialId || '';
-      document.getElementById('composite_url').value  = compositeUrl || '';
-      document.getElementById('choice').value         = selected;
-      document.getElementById('consent_token').value  = tokenParam;
-
-      const form = document.getElementById('mturkForm');
-      form.action = isSandbox()
-        ? 'https://workersandbox.mturk.com/mturk/externalSubmit'
-        : 'https://www.mturk.com/mturk/externalSubmit';
-      form.submit();
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage({ type: 'mturk-submit', payload }, '*');
+        // Disable UI and show a small message while parent submits
+        document.getElementById('submitBtn').disabled = true;
+        const done = document.getElementById('doneMsg'); done.style.display = 'block';
+        done.innerHTML = '<h3>Submitting…</h3><p>Please wait.</p>';
+      } else {
+        // Fallback if opened standalone
+        document.getElementById('submitBtn').disabled = true;
+        const done = document.getElementById('doneMsg'); done.style.display = 'block';
+        done.innerHTML = '<h3>Thanks — your response was recorded.</h3><p>You may close this tab.</p>';
+        console.log('Payload (standalone):', payload);
+      }
     });
   }
 </script>
