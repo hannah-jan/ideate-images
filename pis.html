@@ -60,16 +60,23 @@
   // Your trial vars
   const trialId      = qp('trial_id');
   const compositeUrl = qp('composite_url');
-  const pisUrl       = qp('pis_url','');  // your PIS PDF (e.g., GitHub raw or S3)
+  // Default to lowercase pis.pdf on your Pages site if not provided
+  const pisUrl       = qp('pis_url','https://hannah-jan.github.io/ideate-images/pis.pdf');
 
   // Wire the PDF
-  if (pisUrl){
-    document.getElementById('pisFrame').src = pisUrl;
-    const a = document.getElementById('pisLink'); a.href = pisUrl; a.textContent = 'Open PIS (PDF)';
-  } else {
-    document.getElementById('pisFrame').style.display = 'none';
-    const a = document.getElementById('pisLink'); a.href = '#'; a.textContent = 'PIS link not provided';
-  }
+  (function(){
+    const frame = document.getElementById('pisFrame');
+    const link  = document.getElementById('pisLink');
+    if (pisUrl){
+      frame.src = pisUrl;
+      link.href = pisUrl;
+      link.textContent = 'Open PIS (PDF)';
+    } else {
+      frame.style.display = 'none';
+      link.href = '#';
+      link.textContent = 'PIS link not provided';
+    }
+  })();
 
   // Validate & continue
   document.getElementById('continueBtn').addEventListener('click', () => {
@@ -83,13 +90,27 @@
     const token = Math.random().toString(36).slice(2);
     sessionStorage.setItem('consent_token', token);
 
-    // Redirect to task.html with all params
-    const url = new URL('task.html', window.location.href);
-    [['assignmentId',assignmentId],['workerId',workerId],['hitId',hitId],
-     ['trial_id',trialId],['composite_url',compositeUrl],['pis_url',pisUrl],
-     ['consented','1'],['t',token]
-    ].forEach(([k,v]) => { if (v) url.searchParams.set(k,v); });
-    location.href = url.toString();
+    // --- Robust redirect to task.html (keeps /ideate-images/ path) ---
+    const u = new URL(window.location.href);
+    // replace only the filename in the current path
+    u.pathname = u.pathname.replace(/[^/]+$/, 'task.html');
+    // rebuild query params cleanly
+    u.search = '';
+    [
+      ['assignmentId', assignmentId],
+      ['workerId',     workerId],
+      ['hitId',        hitId],
+      ['trial_id',     trialId],
+      ['composite_url',compositeUrl],
+      ['pis_url',      pisUrl],
+      ['consented',    '1'],
+      ['t',            token]
+    ].forEach(([k,v]) => { if (v) u.searchParams.set(k, v); });
+
+    // (optional) debug
+    // console.log('Redirecting to:', u.toString());
+
+    window.location.href = u.toString();
   });
 </script>
 </body>
