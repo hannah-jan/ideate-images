@@ -8,16 +8,18 @@
     body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height:1.45; padding:16px; max-width:860px; margin:0 auto; }
     .card { border:1px solid #ddd; border-radius:10px; padding:16px; background:#fff; }
     .row { margin-top:12px; }
-    .qgroup { display:flex; gap:14px; margin:6px 0; }
     .btn { appearance:none; border:0; background:#0ea5e9; color:#fff; padding:10px 16px; border-radius:8px; font-weight:600; cursor:pointer; }
+    .btn:disabled { opacity:.6; cursor:not-allowed; }
     .warn { color:#b45309; background:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px; margin:10px 0; display:none; }
     iframe { width:100%; height:380px; border:1px solid #ddd; border-radius:8px; }
+    ul.confirm { list-style:none; padding-left:0; }
+    ul.confirm li { margin:8px 0; }
   </style>
 </head>
 <body>
   <h2>Participant Information Sheet (PIS)</h2>
   <div class="card">
-    <p>Please read the PIS, tick the consent box, and answer two quick questions. Then click <b>Continue</b>.</p>
+    <p>Please read the PIS, tick all confirmations, then click <b>Continue</b>.</p>
 
     <!-- PIS viewer/link -->
     <div class="row">
@@ -25,32 +27,28 @@
       <div class="row"><a id="pisLink" target="_blank" rel="noopener">Open PIS in new tab</a></div>
     </div>
 
-    <!-- Consent + 2 checks -->
+    <!-- Confirmations -->
     <div class="row">
-      <label><input type="checkbox" id="consent"> I confirm I have read the PIS and agree to take part. Participation is voluntary and anonymous.</label>
-    </div>
-    <div class="row">
-      <p><b>Quick check:</b></p>
-      <div>1) Will any identifiable personal data be collected?</div>
-      <div class="qgroup">
-        <label><input type="radio" name="q_ident" value="no"> No</label>
-        <label><input type="radio" name="q_ident" value="yes"> Yes</label>
-      </div>
-      <div>2) Can I stop at any time by closing the window?</div>
-      <div class="qgroup">
-        <label><input type="radio" name="q_withdraw" value="yes"> Yes</label>
-        <label><input type="radio" name="q_withdraw" value="no"> No</label>
-      </div>
+      <ul class="confirm" id="confirmList">
+        <li><label><input type="checkbox" class="conf"> I confirm I have read and understood the Participant Information Sheet (PIS).</label></li>
+        <li><label><input type="checkbox" class="conf"> I am 18 years of age or older.</label></li>
+        <li><label><input type="checkbox" class="conf"> I understand my participation is voluntary and I can stop at any time by closing the window without penalty.</label></li>
+        <li><label><input type="checkbox" class="conf"> I understand that no identifiable personal data are being collected in this study and consent to my anonymised responses being stored securely and used for research and publication.</label></li>
+      </ul>
     </div>
 
     <div id="msg" class="warn"></div>
-    <div class="row"><button id="continueBtn" class="btn">Continue to the task</button></div>
+
+    <div class="row">
+      <button id="continueBtn" class="btn" disabled>Continue to the task</button>
+    </div>
   </div>
 
 <script>
   // Helpers
   const qp = (k,d="") => new URL(location.href).searchParams.get(k) ?? d;
   const showMsg = t => { const m=document.getElementById('msg'); m.textContent=t; m.style.display='block'; };
+  const hideMsg = () => { document.getElementById('msg').style.display='none'; };
 
   // MTurk auto-params
   const assignmentId = qp('assignmentId');
@@ -78,23 +76,30 @@
     }
   })();
 
-  // Validate & continue
-  document.getElementById('continueBtn').addEventListener('click', () => {
-    const consent = document.getElementById('consent').checked;
-    const ident   = document.querySelector('input[name="q_ident"]:checked')?.value;
-    const wd      = document.querySelector('input[name="q_withdraw"]:checked')?.value;
-    if (!consent) return showMsg('Please tick the consent confirmation.');
-    if (ident !== 'no' || wd !== 'yes') return showMsg('Please answer the two PIS questions correctly.');
+  // Enable Continue only when all confirmations are checked
+  const confBoxes = Array.from(document.querySelectorAll('.conf'));
+  const continueBtn = document.getElementById('continueBtn');
+  function updateContinue() {
+    const allChecked = confBoxes.every(cb => cb.checked);
+    continueBtn.disabled = !allChecked;
+    if (allChecked) hideMsg();
+  }
+  confBoxes.forEach(cb => cb.addEventListener('change', updateContinue));
 
-    // Create a short token in this tab
+  // Continue → set token + robust redirect to task.html
+  continueBtn.addEventListener('click', () => {
+    if (confBoxes.some(cb => !cb.checked)) {
+      showMsg('Please tick all confirmations to proceed.');
+      return;
+    }
+
+    // tab-scoped consent token
     const token = Math.random().toString(36).slice(2);
     sessionStorage.setItem('consent_token', token);
 
-    // --- Robust redirect to task.html (keeps /ideate-images/ path) ---
     const u = new URL(window.location.href);
-    // replace only the filename in the current path
+    // replace only the filename, keep /ideate-images/ path
     u.pathname = u.pathname.replace(/[^/]+$/, 'task.html');
-    // rebuild query params cleanly
     u.search = '';
     [
       ['assignmentId', assignmentId],
@@ -106,9 +111,6 @@
       ['consented',    '1'],
       ['t',            token]
     ].forEach(([k,v]) => { if (v) u.searchParams.set(k, v); });
-
-    // (optional) debug
-    // console.log('Redirecting to:', u.toString());
 
     window.location.href = u.toString();
   });
