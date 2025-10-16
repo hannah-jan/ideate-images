@@ -82,7 +82,7 @@
 
   // If someone opens task.html directly (or in a new tab) -> link back to PIS
   function backToPISUrl(){
-    const url = new URL('pis.html', location.origin);
+    const url = new URL('pis.html', window.location.href);
     [['assignmentId',assignmentId],['workerId',workerId],['hitId',hitId],
      ['trial_id',trialId],['composite_url',compositeUrl],['pis_url',pisUrl]
     ].forEach(([k,v]) => { if (v) url.searchParams.set(k,v); });
