@@ -84,7 +84,12 @@
     sessionStorage.setItem('consent_token', token);
 
     // Redirect to task.html with all params
-    const url = new URL('task.html', location.origin);
+    const url = new URL('task.html', window.location.href);
+    [['assignmentId',assignmentId],['workerId',workerId],['hitId',hitId],
+     ['trial_id',trialId],['composite_url',compositeUrl],['pis_url',pisUrl],
+     ['consented','1'],['t',token]
+    ].forEach(([k,v]) => { if (v) url.searchParams.set(k,v); });
+    window.location.href = url.toString();
     [['assignmentId',assignmentId],['workerId',workerId],['hitId',hitId],
      ['trial_id',trialId],['composite_url',compositeUrl],['pis_url',pisUrl],
      ['consented','1'],['t',token]
