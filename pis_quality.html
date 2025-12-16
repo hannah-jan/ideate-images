@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>PIS & Consent</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height:1.45; padding:16px; max-width:860px; margin:0 auto; }
+    .card { border:1px solid #ddd; border-radius:10px; padding:16px; background:#fff; }
+    .row { margin-top:12px; }
+    .btn { appearance:none; border:0; background:#0ea5e9; color:#fff; padding:10px 16px; border-radius:8px; font-weight:600; cursor:pointer; }
+    .btn:disabled { opacity:.6; cursor:not-allowed; }
+    .warn { color:#b45309; background:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px; margin:10px 0; display:none; }
+    iframe { width:100%; height:380px; border:1px solid #ddd; border-radius:8px; }
+    ul.confirm { list-style:none; padding-left:0; }
+    ul.confirm li { margin:8px 0; }
+  </style>
+</head>
+<body>
+  <h2>Participant Information Sheet (PIS)</h2>
+  <div class="card">
+    <p>Please read the Participant Information Sheets and, if you consent, tick all confirmations then click <b>Continue</b>.</p>
+
+    <!-- PIS viewer/link -->
+    <div class="row">
+      <iframe id="pisFrame" src="" title="PIS PDF (if it doesn't render, use the link below)"></iframe>
+      <div class="row"><a id="pisLink" target="_blank" rel="noopener">Open PIS in new tab</a></div>
+    </div>
+
+    <!-- Confirmations -->
+    <div class="row">
+      <ul class="confirm" id="confirmList">
+        <li><label><input type="checkbox" class="conf"> I confirm that I have read and understand the participant information sheet version 3.0 dated 17/11/2025 for the “Human Evaluation of AI-Generated Images” survey. </label></li>
+        <li><label><input type="checkbox" class="conf"> I understand that my participation is voluntary, and I am free to withdraw at any time, without giving any reason.</label></li>
+        <li><label><input type="checkbox" class="conf"> I give consent for information collected about me to be used to support other research or by an academic institution or commercial company in the future, including those outside of the United Kingdom (which Imperial has ensured will keep this information secure).</label></li>
+        <li><label><input type="checkbox" class="conf"> I understand that or data collected from me are a gift donated to Imperial College and that I will not personally benefit financially if this research leads to an invention and/or the successful development of a new test, product or service. </label></li>
+        <li><label><input type="checkbox" class="conf"> I consent to take part in “Human Evaluation of AI-Generated Images” survey. </label></li>
+      </ul>
+    </div>
+
+    <div id="msg" class="warn"></div>
+
+    <div class="row">
+      <button id="continueBtn" class="btn" disabled>Continue to the task</button>
+    </div>
+  </div>
+
+<script>
+  // Helpers
+  const qp = (k,d="") => new URL(location.href).searchParams.get(k) ?? d;
+  const showMsg = t => { const m=document.getElementById('msg'); m.textContent=t; m.style.display='block'; };
+  const hideMsg = () => { document.getElementById('msg').style.display='none'; };
+
+  // MTurk auto-params
+  const assignmentId = qp('assignmentId');
+  const workerId     = qp('workerId');
+  const hitId        = qp('hitId');
+
+  // Your trial vars
+  const trialId      = qp('trial_id');
+  const compositeUrl = qp('composite_url');
+  // Default to lowercase pis.pdf on your Pages site if not provided
+  const pisUrl       = qp('pis_url','https://hannah-jan.github.io/ideate-images/pis.pdf');
+
+  // Wire the PDF
+  (function(){
+    const frame = document.getElementById('pisFrame');
+    const link  = document.getElementById('pisLink');
+    if (pisUrl){
+      frame.src = pisUrl;
+      link.href = pisUrl;
+      link.textContent = 'Open PIS (PDF)';
+    } else {
+      frame.style.display = 'none';
+      link.href = '#';
+      link.textContent = 'PIS link not provided';
+    }
+  })();
+
+  // Enable Continue only when all confirmations are checked
+  const confBoxes = Array.from(document.querySelectorAll('.conf'));
+  const continueBtn = document.getElementById('continueBtn');
+  function updateContinue() {
+    const allChecked = confBoxes.every(cb => cb.checked);
+    continueBtn.disabled = !allChecked;
+    if (allChecked) hideMsg();
+  }
+  confBoxes.forEach(cb => cb.addEventListener('change', updateContinue));
+
+  // Continue → set token + robust redirect to task.html
+  continueBtn.addEventListener('click', () => {
+    if (confBoxes.some(cb => !cb.checked)) {
+      showMsg('Please tick all confirmations to proceed.');
+      return;
+    }
+
+    // tab-scoped consent token
+    const token = Math.random().toString(36).slice(2);
+    sessionStorage.setItem('consent_token', token);
+
+    const u = new URL(window.location.href);
+    // replace only the filename, keep /ideate-images/ path
+    u.pathname = u.pathname.replace(/[^/]+$/, 'task.html');
+    u.search = '';
+    [
+      ['assignmentId', assignmentId],
+      ['workerId',     workerId],
+      ['hitId',        hitId],
+      ['trial_id',     trialId],
+      ['composite_url',compositeUrl],
+      ['pis_url',      pisUrl],
+      ['consented',    '1'],
+      ['t',            token]
+    ].forEach(([k,v]) => { if (v) u.searchParams.set(k, v); });
+
+    window.location.href = u.toString();
+  });
+</script>
+</body>
+</html>
