@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Image Diversity Choice</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height:1.45; padding:16px; max-width:860px; margin:0 auto; }
+    .card { border:1px solid #ddd; border-radius:10px; padding:16px; background:#fff; text-align:center; }
+    .warn { color:#b45309; background:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px; margin:10px 0; display:none; }
+    .ok   { color:#065f46; background:#ecfdf5; border:1px solid #a7f3d0; border-radius:8px; padding:10px; margin:10px 0; display:none; }
+    img { width:95%; max-width:1200px; height:auto; border-radius:6px; border:1px solid #eee; }
+    .radios { display:flex; justify-content:center; gap:20px; margin-top:10px; }
+    .btn { appearance:none; border:0; background:#10b981; color:#fff; padding:10px 16px; border-radius:8px; font-weight:600; cursor:pointer; }
+    .btn:disabled { opacity:.6; cursor:not-allowed; }
+    .lock { color:#b45309; background:#fff7ed; border:1px dashed #fbbf24; border-radius:8px; padding:12px; margin:10px 0; }
+    .done { margin-top:14px; display:none; }
+  </style>
+</head>
+<body>
+  <h2>Which set of images better matches the shown prompt?</h2>
+
+  <!-- Shown if someone skipped consent -->
+  <div id="locked" class="lock" style="display:none;"></div>
+
+  <!-- The actual task -->
+  <div id="taskCard" class="card" style="display:none;">
+    <div id="timingWarn" class="warn">
+      <p>If the image appears small, right-click to open in a new tab.</p>
+      <p>Tip: Please take a few seconds to view the image carefully before answering.</p>
+    </div>
+    <div id="timingOk" class="ok">Thanks — looks like you took a moment to view the image.</div>
+
+    <div><img id="compImg" alt="Composite image: left vs right" loading="eager" /></div>
+
+    <div style="margin-top:14px;">
+      <p><b>Which set of images is more diverse for the prompt shown?</b></p>
+      <div class="radios">
+        <label><input type="radio" name="choice" value="left" required> Left side</label>
+        <label><input type="radio" name="choice" value="right" required> Right side</label>
+        <label><input type="radio" name="choice" value="same" required> About the same</label>
+      </div>
+    </div>
+
+    <div style="margin-top:16px;">
+      <button class="btn" id="submitBtn">Submit</button>
+    </div>
+
+    <div id="doneMsg" class="done">
+      <h3>Thanks — your response was recorded.</h3>
+      <p>If this page is not embedded in MTurk, you may now close the tab.</p>
+    </div>
+  </div>
+
+<script>
+  // Helpers
+  const qp = (k,d="") => new URL(location.href).searchParams.get(k) ?? d;
+
+  // Params passed from pis.html
+  const assignmentId = qp('assignmentId'); // may be empty in iframe method; MTurk outer page has it
+  const workerId     = qp('workerId');
+  const hitId        = qp('hitId');
+  const trialId      = qp('trial_id');
+  const compositeUrl = qp('composite_url');
+  const pisUrl       = qp('pis_url');
+  const consented    = qp('consented') === '1';
+  const tokenParam   = qp('t');
+  const tokenStored  = sessionStorage.getItem('consent_token');
+
+  const lockedEl = document.getElementById('locked');
+  const taskEl   = document.getElementById('taskCard');
+
+  // Build safe link back to PIS (keeps /ideate-images/ path)
+  function backToPISUrl(){
+    const u = new URL(window.location.href);
+    u.pathname = u.pathname.replace(/[^/]+$/, 'pis.html');
+    u.search = '';
+    [
+      ['assignmentId', assignmentId],
+      ['workerId',     workerId],
+      ['hitId',        hitId],
+      ['trial_id',     trialId],
+      ['composite_url',compositeUrl],
+      ['pis_url',      pisUrl]
+    ].forEach(([k,v]) => { if (v) u.searchParams.set(k, v); });
+    return u.toString();
+  }
+
+  const unlocked = consented && tokenParam && tokenStored && (tokenParam === tokenStored);
+  if (!unlocked){
+    lockedEl.style.display = 'block';
+    lockedEl.innerHTML = `This page can only be accessed after completing the PIS & consent step.<br>
+      <a href="${backToPISUrl()}" style="display:inline-block;margin-top:8px;">Go to PIS & consent</a>`;
+  } else {
+    // Show task
+    taskEl.style.display = 'block';
+
+    // Load image
+    document.getElementById('compImg').src = compositeUrl;
+
+    // Timing nudges
+    const start = Date.now();
+    setTimeout(() => {
+      document.getElementById('timingWarn').style.display = 'none';
+      document.getElementById('timingOk').style.display = 'block';
+    }, 6000);
+
+    // Submit -> send to parent MTurk page via postMessage
+    document.getElementById('submitBtn').addEventListener('click', () => {
+      const selected = document.querySelector('input[name="choice"]:checked')?.value;
+      if (!selected){ alert('Please select one option.'); return; }
+
+      const end = Date.now();
+      const payload = {
+        trial_id:           trialId || '',
+        composite_url:      compositeUrl || '',
+        choice:             selected,
+        time_started_ms:    String(start),
+        time_submitted_ms:  String(end),
+        time_spent_seconds: String(Math.max(0, Math.round((end - start)/1000))),
+        consent_token:      tokenParam || '',
+        pis_url:            pisUrl || ''
+      };
+
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage({ type: 'mturk-submit', payload }, '*');
+        // Disable UI and show a small message while parent submits
+        document.getElementById('submitBtn').disabled = true;
+        const done = document.getElementById('doneMsg'); done.style.display = 'block';
+        done.innerHTML = '<h3>Submitting…</h3><p>Please wait.</p>';
+      } else {
+        // Fallback if opened standalone
+        document.getElementById('submitBtn').disabled = true;
+        const done = document.getElementById('doneMsg'); done.style.display = 'block';
+        done.innerHTML = '<h3>Thanks — your response was recorded.</h3><p>You may close this tab.</p>';
+        console.log('Payload (standalone):', payload);
+      }
+    });
+  }
+</script>
+</body>
+</html>
