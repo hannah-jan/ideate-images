@@ -72,7 +72,6 @@
       <p>If the image appears small, right-click to open in a new tab.</p>
       <p>Tip: Please take a few seconds to view the image carefully before answering.</p>
     </div>
-    <div id="timingOk" class="ok">Thanks — looks like you took a moment to view the image.</div>
 
     <div><img id="compImg" alt="Composite image: left vs right" loading="eager" /></div>
 
@@ -147,12 +146,8 @@
     // Load image
     document.getElementById('compImg').src = compositeUrl;
 
-    // Timing nudges
+    // Timing
     const start = Date.now();
-    setTimeout(() => {
-      document.getElementById('timingWarn').style.display = 'none';
-      document.getElementById('timingOk').style.display = 'block';
-    }, 6000);
 
     // Submit -> send to parent MTurk page via postMessage
     document.getElementById('submitBtn').addEventListener('click', () => {
