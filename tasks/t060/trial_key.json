@@ -1,0 +1,79 @@
+{
+    "t060": {
+        "prompt_text": "a half moon in the day sky",
+        "seed": 12144436911751076377,
+        "seed_key": "a half moon in the day sky|ideate|lluminate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "lluminate"
+        },
+        "left": {
+            "label": "lluminate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task016__a_half_moon_in_the_day_sky",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task016__a_half_moon_in_the_day_sky/32c5b3c3-b38b-4077-9f48-6fe3a1a890a1.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task016__a_half_moon_in_the_day_sky/5a15fb87-66af-44da-a387-6534ba508c52.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task016__a_half_moon_in_the_day_sky/fdb62df8-f721-42dc-bee3-2eac5d2e340c.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task016__a_half_moon_in_the_day_sky/3ef0952c-ab8d-4614-9d7d-7e41e45fe075.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task016__a_half_moon_in_the_day_sky/6087c3ff-3efb-49f2-b4bc-be17ed01914a.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task016__a_half_moon_in_the_day_sky/90e725d1-cc0e-48e6-9b46-066df5a2bb29.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task016__a_half_moon_in_the_day_sky/3ad5b403-d48f-4e87-ab23-11bd5d4f7aaf.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task016__a_half_moon_in_the_day_sky/0170af86-36ce-4afd-8f5b-69278720924f.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task016__a_half_moon_in_the_day_sky/c10c349c-c32a-4116-9726-c7499348c20e.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task016__a_half_moon_in_the_day_sky/4e9a780d-89f4-444a-8fb6-e13790ef0f1f.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task016__a_half_moon_in_the_day_sky/4bfb4948-02e1-4f41-9bfe-ce1281d2fd91.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task016__a_half_moon_in_the_day_sky/6c97f6ae-e572-4fa1-a1a2-796367122e20.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task016__a_half_moon_in_the_day_sky/42e5f657-fe26-4668-a6fe-0c9a9f31dd6e.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task016__a_half_moon_in_the_day_sky/addad9a5-4aba-4d2c-b915-55687172fa38.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task016__a_half_moon_in_the_day_sky/89f4f646-3e4a-41ed-91b0-050e833b8396.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task016__a_half_moon_in_the_day_sky/4e2d9216-b6f6-4ef8-a50d-a5d9ef0d887c.jpg"
+            ]
+        },
+        "right": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task016__a_half_moon_in_the_day_sky",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task016__a_half_moon_in_the_day_sky/sol_006.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task016__a_half_moon_in_the_day_sky/sol_009.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task016__a_half_moon_in_the_day_sky/sol_026.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task016__a_half_moon_in_the_day_sky/sol_025.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task016__a_half_moon_in_the_day_sky/sol_018.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task016__a_half_moon_in_the_day_sky/sol_017.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task016__a_half_moon_in_the_day_sky/sol_031.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task016__a_half_moon_in_the_day_sky/sol_019.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task016__a_half_moon_in_the_day_sky/sol_002.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task016__a_half_moon_in_the_day_sky/sol_004.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task016__a_half_moon_in_the_day_sky/sol_024.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task016__a_half_moon_in_the_day_sky/sol_016.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task016__a_half_moon_in_the_day_sky/sol_029.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task016__a_half_moon_in_the_day_sky/sol_036.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task016__a_half_moon_in_the_day_sky/sol_001.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task016__a_half_moon_in_the_day_sky/sol_021.png"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 80,
+            "font_min_size": 20,
+            "chosen_font_size": 80,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t060/t060.png"
+    }
+}

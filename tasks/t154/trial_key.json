@@ -1,0 +1,79 @@
+{
+    "t154": {
+        "prompt_text": "The saying \\\"BE EXCELLENT TO EACH OTHER\\\" written on a red brick wall with a graffiti image of a green alien wearing a tuxedo. A yellow fire hydrant is on a sidewalk in the foreground.",
+        "seed": 4161984122127438118,
+        "seed_key": "The saying \\\"BE EXCELLENT TO EACH OTHER\\\" written on a red brick wall with a graffiti image of a green alien wearing a tuxedo. A yellow fire hydrant is on a sidewalk in the foreground.|dp_replay|ideate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "dp_replay"
+        },
+        "left": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_018.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_019.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_016.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_004.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_011.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_015.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_009.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_046.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_010.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_012.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_025.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_022.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_006.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_003.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_024.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_031.png"
+            ]
+        },
+        "right": {
+            "label": "dp_replay",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_030.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_023.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_037.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_031.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_009.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_020.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_035.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_019.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_013.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_049.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_047.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_048.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_012.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_043.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_018.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task041__the_saying_be_excellent_to_each_other_written_on_a_red_brick_wal/sol_007.png"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 54,
+            "font_min_size": 20,
+            "chosen_font_size": 54,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t154/t154.png"
+    }
+}

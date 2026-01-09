@@ -1,0 +1,79 @@
+{
+    "t013": {
+        "prompt_text": "yin-yang",
+        "seed": 12314947378993518910,
+        "seed_key": "yin-yang|dp_replay|ideate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "dp_replay"
+        },
+        "left": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task004__yin_yang",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task004__yin_yang/sol_017.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task004__yin_yang/sol_026.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task004__yin_yang/sol_007.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task004__yin_yang/sol_015.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task004__yin_yang/sol_048.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task004__yin_yang/sol_045.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task004__yin_yang/sol_006.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task004__yin_yang/sol_016.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task004__yin_yang/sol_037.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task004__yin_yang/sol_013.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task004__yin_yang/sol_038.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task004__yin_yang/sol_018.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task004__yin_yang/sol_004.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task004__yin_yang/sol_009.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task004__yin_yang/sol_023.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task004__yin_yang/sol_003.png"
+            ]
+        },
+        "right": {
+            "label": "dp_replay",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task004__yin_yang",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task004__yin_yang/sol_005.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task004__yin_yang/sol_022.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task004__yin_yang/sol_004.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task004__yin_yang/sol_009.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task004__yin_yang/sol_002.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task004__yin_yang/sol_049.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task004__yin_yang/sol_028.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task004__yin_yang/sol_047.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task004__yin_yang/sol_010.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task004__yin_yang/sol_024.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task004__yin_yang/sol_043.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task004__yin_yang/sol_033.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task004__yin_yang/sol_046.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task004__yin_yang/sol_031.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task004__yin_yang/sol_018.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task004__yin_yang/sol_025.png"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 64,
+            "font_min_size": 20,
+            "chosen_font_size": 64,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t013/t013.png"
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "t092": {
+        "prompt_text": "an aerial photo of a carnival at night",
+        "seed": 5806871643432300175,
+        "seed_key": "an aerial photo of a carnival at night|ideate|lluminate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "lluminate"
+        },
+        "left": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task024__an_aerial_photo_of_a_carnival_at_night",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task024__an_aerial_photo_of_a_carnival_at_night/sol_003.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task024__an_aerial_photo_of_a_carnival_at_night/sol_043.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task024__an_aerial_photo_of_a_carnival_at_night/sol_019.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task024__an_aerial_photo_of_a_carnival_at_night/sol_032.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task024__an_aerial_photo_of_a_carnival_at_night/sol_018.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task024__an_aerial_photo_of_a_carnival_at_night/sol_020.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task024__an_aerial_photo_of_a_carnival_at_night/sol_027.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task024__an_aerial_photo_of_a_carnival_at_night/sol_023.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task024__an_aerial_photo_of_a_carnival_at_night/sol_008.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task024__an_aerial_photo_of_a_carnival_at_night/sol_007.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task024__an_aerial_photo_of_a_carnival_at_night/sol_022.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task024__an_aerial_photo_of_a_carnival_at_night/sol_034.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task024__an_aerial_photo_of_a_carnival_at_night/sol_006.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task024__an_aerial_photo_of_a_carnival_at_night/sol_050.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task024__an_aerial_photo_of_a_carnival_at_night/sol_002.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task024__an_aerial_photo_of_a_carnival_at_night/sol_010.png"
+            ]
+        },
+        "right": {
+            "label": "lluminate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task024__an_aerial_photo_of_a_carnival_at_night",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task024__an_aerial_photo_of_a_carnival_at_night/147ccdb2-5a48-4851-b4ca-dff27847fae9.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task024__an_aerial_photo_of_a_carnival_at_night/6dc5bb4e-a438-4a23-8e42-048f27a21a8e.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task024__an_aerial_photo_of_a_carnival_at_night/657ff6b1-1226-4eef-b25f-9d550608037c.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task024__an_aerial_photo_of_a_carnival_at_night/0493a674-8f27-4c09-96c4-f1f0d65b55e3.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task024__an_aerial_photo_of_a_carnival_at_night/e537cd5c-bfbe-485c-b806-bfb92222d91a.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task024__an_aerial_photo_of_a_carnival_at_night/b07a2cb4-a429-460f-a39a-7c36ff7ec98f.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task024__an_aerial_photo_of_a_carnival_at_night/8a6a67b2-3e07-4cc6-b9e0-e1dd2a6649aa.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task024__an_aerial_photo_of_a_carnival_at_night/5aa7bb04-2934-473d-a5d6-9e1db5606138.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task024__an_aerial_photo_of_a_carnival_at_night/2d2b9180-d0e5-4de7-9459-aeebfd93af5a.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task024__an_aerial_photo_of_a_carnival_at_night/0ac8e352-68f3-468d-95d1-d032a67ff79a.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task024__an_aerial_photo_of_a_carnival_at_night/9cbd7c9d-53eb-457e-9b65-6e205f1d1dc9.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task024__an_aerial_photo_of_a_carnival_at_night/aff61adc-c843-4d79-a6d3-f786e760e809.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task024__an_aerial_photo_of_a_carnival_at_night/f99b223c-4dcc-4ca1-b0f1-3ef1e731e38f.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task024__an_aerial_photo_of_a_carnival_at_night/825038e7-1323-4558-ade7-469d75cf2165.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task024__an_aerial_photo_of_a_carnival_at_night/d408356d-429d-46d3-aaae-65646ee2aa4c.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task024__an_aerial_photo_of_a_carnival_at_night/d3f830d7-f4ee-4377-a79a-b3a6cd732c80.jpg"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 80,
+            "font_min_size": 20,
+            "chosen_font_size": 80,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t092/t092.png"
+    }
+}

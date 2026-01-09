@@ -1,0 +1,79 @@
+{
+    "t168": {
+        "prompt_text": "a black t-shirt with the peace sign on it",
+        "seed": 13343530181348529298,
+        "seed_key": "a black t-shirt with the peace sign on it|ideate|lluminate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "lluminate"
+        },
+        "left": {
+            "label": "lluminate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task044__a_black_t_shirt_with_the_peace_sign_on_it",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task044__a_black_t_shirt_with_the_peace_sign_on_it/aa8a9b42-183d-4478-b802-5b1f48dd41c5.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task044__a_black_t_shirt_with_the_peace_sign_on_it/84f579d2-4e89-4242-a1f6-aa6e95bf8271.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task044__a_black_t_shirt_with_the_peace_sign_on_it/2b16b79d-bd2b-4fae-a873-45ca341f7db1.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task044__a_black_t_shirt_with_the_peace_sign_on_it/ceaf42dd-ff50-406f-9c8f-3e50bee588b0.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task044__a_black_t_shirt_with_the_peace_sign_on_it/f29563b8-5969-4d61-9426-ea71efb6bbd4.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task044__a_black_t_shirt_with_the_peace_sign_on_it/8c457bdd-4743-4f35-b918-994aa9478793.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task044__a_black_t_shirt_with_the_peace_sign_on_it/d08bbd01-3fa7-4fc8-ac76-5467eaafb4d4.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task044__a_black_t_shirt_with_the_peace_sign_on_it/a2212c96-0e8e-4cfd-a888-7a9be4b9d46a.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task044__a_black_t_shirt_with_the_peace_sign_on_it/f66ed44e-390b-4cd2-9753-3461a72a7aef.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task044__a_black_t_shirt_with_the_peace_sign_on_it/bd222ba1-799e-4909-99c6-16615aae3f85.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task044__a_black_t_shirt_with_the_peace_sign_on_it/16d84898-85f1-42be-be2d-27903c666caf.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task044__a_black_t_shirt_with_the_peace_sign_on_it/019dbe38-064d-4bf2-8edc-1c3ee4fac745.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task044__a_black_t_shirt_with_the_peace_sign_on_it/fc4f4f0f-5293-4e64-8ddf-37b3385398e1.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task044__a_black_t_shirt_with_the_peace_sign_on_it/8f3e4702-18cc-4c59-b562-7d95beda6cfc.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task044__a_black_t_shirt_with_the_peace_sign_on_it/2bcfa87b-e825-41b1-9a1e-f1f3b5a1e14a.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task044__a_black_t_shirt_with_the_peace_sign_on_it/295c3274-6d1b-41b6-bf4b-078184d7998c.jpg"
+            ]
+        },
+        "right": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task044__a_black_t_shirt_with_the_peace_sign_on_it",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task044__a_black_t_shirt_with_the_peace_sign_on_it/sol_029.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task044__a_black_t_shirt_with_the_peace_sign_on_it/sol_023.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task044__a_black_t_shirt_with_the_peace_sign_on_it/sol_030.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task044__a_black_t_shirt_with_the_peace_sign_on_it/sol_031.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task044__a_black_t_shirt_with_the_peace_sign_on_it/sol_012.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task044__a_black_t_shirt_with_the_peace_sign_on_it/sol_034.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task044__a_black_t_shirt_with_the_peace_sign_on_it/sol_021.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task044__a_black_t_shirt_with_the_peace_sign_on_it/sol_003.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task044__a_black_t_shirt_with_the_peace_sign_on_it/sol_038.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task044__a_black_t_shirt_with_the_peace_sign_on_it/sol_041.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task044__a_black_t_shirt_with_the_peace_sign_on_it/sol_039.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task044__a_black_t_shirt_with_the_peace_sign_on_it/sol_044.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task044__a_black_t_shirt_with_the_peace_sign_on_it/sol_008.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task044__a_black_t_shirt_with_the_peace_sign_on_it/sol_022.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task044__a_black_t_shirt_with_the_peace_sign_on_it/sol_004.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task044__a_black_t_shirt_with_the_peace_sign_on_it/sol_032.png"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 80,
+            "font_min_size": 20,
+            "chosen_font_size": 80,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t168/t168.png"
+    }
+}

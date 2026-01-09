@@ -1,0 +1,79 @@
+{
+    "t099": {
+        "prompt_text": "a brown trash bin to the left of a blue recycling bin",
+        "seed": 10120144859938951334,
+        "seed_key": "a brown trash bin to the left of a blue recycling bin|ideate|qdaif",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "qdaif"
+        },
+        "left": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/sol_050.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/sol_006.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/sol_019.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/sol_045.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/sol_001.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/sol_025.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/sol_033.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/sol_024.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/sol_009.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/sol_013.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/sol_011.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/sol_036.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/sol_002.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/sol_017.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/sol_020.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/sol_049.png"
+            ]
+        },
+        "right": {
+            "label": "qdaif",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/qdaif_run_20260109_110440_it_0017.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/qdaif_run_20260109_110440_it_0015.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/qdaif_run_20260109_110440_it_0002.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/qdaif_run_20260109_110440_it_0001.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/qdaif_run_20260109_110440_seed_003.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/qdaif_run_20260109_110440_it_0018.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/qdaif_run_20260109_110440_it_0014.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/qdaif_run_20260109_110440_it_0013.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/qdaif_run_20260109_110440_seed_005.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/qdaif_run_20260109_110440_it_0012.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/qdaif_run_20260109_110440_it_0010.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/qdaif_run_20260109_110440_it_0036.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/qdaif_run_20260109_110440_seed_004.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/qdaif_run_20260109_110440_it_0008.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/qdaif_run_20260109_110440_it_0031.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task026__a_brown_trash_bin_to_the_left_of_a_blue_recycling_bin/qdaif_run_20260109_110440_it_0006.png"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 80,
+            "font_min_size": 20,
+            "chosen_font_size": 80,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t099/t099.png"
+    }
+}

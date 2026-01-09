@@ -1,0 +1,79 @@
+{
+    "t142": {
+        "prompt_text": "a map of Texas",
+        "seed": 18437473063847189318,
+        "seed_key": "a map of Texas|ideate|lluminate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "lluminate"
+        },
+        "left": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_022.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_010.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_021.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_046.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_019.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_018.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_040.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_004.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_028.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_039.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_009.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_006.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_013.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_024.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_030.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_008.png"
+            ]
+        },
+        "right": {
+            "label": "lluminate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task037__a_map_of_texas",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task037__a_map_of_texas/f92adccb-6bb5-4572-a879-12c00fb7b696.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task037__a_map_of_texas/10a84c85-b828-48a5-aba5-b64211ef4891.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task037__a_map_of_texas/d7aebd98-b432-40ef-9eb3-acf3a2ef6146.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task037__a_map_of_texas/4272b2f4-1a3f-4708-a686-bb72fa047665.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task037__a_map_of_texas/87601ca4-eb0c-4d7b-9db2-a2f7ff3243b9.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task037__a_map_of_texas/26e8af9d-fb4d-41a8-9ab1-691e103e8124.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task037__a_map_of_texas/2be4865b-5426-43a8-9aba-061efc49171f.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task037__a_map_of_texas/4c25fb9b-54e9-46e1-bbc3-342287fbe086.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task037__a_map_of_texas/d7a43ba4-5dee-41b2-bc98-ea4695f9e643.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task037__a_map_of_texas/069b1b5d-bbc4-42ef-a9a7-7b76745015e6.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task037__a_map_of_texas/71ba01b0-a506-4adc-9b59-e4d2d078e431.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task037__a_map_of_texas/5362ab5c-b45c-4aad-b60e-4469fbe666cb.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task037__a_map_of_texas/c5fd365d-6c4f-4b1c-833f-19fa382c6cb1.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task037__a_map_of_texas/9cb60c99-7884-4e9c-8853-ac8513436302.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task037__a_map_of_texas/7557553a-f9d0-416f-81bb-edd95961cbf0.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task037__a_map_of_texas/8f4227ad-f398-4643-b8f5-14418ef258d1.jpg"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 64,
+            "font_min_size": 20,
+            "chosen_font_size": 64,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t142/t142.png"
+    }
+}

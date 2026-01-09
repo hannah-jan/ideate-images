@@ -1,0 +1,79 @@
+{
+    "t104": {
+        "prompt_text": "a yellow swirl next to a blue dashed line.",
+        "seed": 10948416320075548083,
+        "seed_key": "a yellow swirl next to a blue dashed line.|ideate|lluminate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "lluminate"
+        },
+        "left": {
+            "label": "lluminate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task027__a_yellow_swirl_next_to_a_blue_dashed_line",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/4f907885-f227-45e8-b15b-d97843b4aa3f.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/bf551004-63fc-4079-972c-9ccb8e12c8a6.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/a075f3a6-f460-48eb-94c0-9a3ee7e6aa16.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/5d190555-0824-43c8-9066-456a93db41f4.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/15b53042-29b3-4ba6-993e-dd44b96b4da2.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/1670c0a4-b6cc-4044-a1d6-def378634140.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/db0be1d9-2b2a-4a7b-a695-6ebc4fb38074.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/efa3382c-de1f-4da6-866f-9eacac38d2fc.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/3f55f09e-0176-480d-87aa-8e56d063b90a.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/4bb88cbd-fe1d-4ab9-87ab-4db4d8ffe690.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/dc0db559-7c53-4b46-ac6a-1e643be788cd.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/2c36f22b-0bb7-4b97-8066-297a6d8cc58d.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/c19b78d8-62e9-426d-b8cb-9ef1bdec23f4.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/d9481322-33fc-4e70-ab58-604e0e9515fa.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/a0168f07-29c1-41d9-9fcb-65867336ca8f.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/14e2baab-86c5-47c9-ae7f-b9546f642f1d.jpg"
+            ]
+        },
+        "right": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task027__a_yellow_swirl_next_to_a_blue_dashed_line",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/sol_014.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/sol_012.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/sol_023.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/sol_032.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/sol_002.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/sol_027.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/sol_047.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/sol_018.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/sol_029.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/sol_009.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/sol_037.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/sol_025.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/sol_003.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/sol_033.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/sol_030.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task027__a_yellow_swirl_next_to_a_blue_dashed_line/sol_028.png"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 80,
+            "font_min_size": 20,
+            "chosen_font_size": 80,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t104/t104.png"
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "t149": {
+        "prompt_text": "a drawing of a handsaw",
+        "seed": 13237497366716353623,
+        "seed_key": "a drawing of a handsaw|ideate|qdaif",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "qdaif"
+        },
+        "left": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task039__a_drawing_of_a_handsaw",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task039__a_drawing_of_a_handsaw/sol_015.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task039__a_drawing_of_a_handsaw/sol_005.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task039__a_drawing_of_a_handsaw/sol_018.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task039__a_drawing_of_a_handsaw/sol_025.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task039__a_drawing_of_a_handsaw/sol_037.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task039__a_drawing_of_a_handsaw/sol_032.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task039__a_drawing_of_a_handsaw/sol_012.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task039__a_drawing_of_a_handsaw/sol_023.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task039__a_drawing_of_a_handsaw/sol_027.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task039__a_drawing_of_a_handsaw/sol_028.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task039__a_drawing_of_a_handsaw/sol_022.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task039__a_drawing_of_a_handsaw/sol_011.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task039__a_drawing_of_a_handsaw/sol_007.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task039__a_drawing_of_a_handsaw/sol_031.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task039__a_drawing_of_a_handsaw/sol_044.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task039__a_drawing_of_a_handsaw/sol_024.png"
+            ]
+        },
+        "right": {
+            "label": "qdaif",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task039__a_drawing_of_a_handsaw",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task039__a_drawing_of_a_handsaw/qdaif_run_20260108_060851_seed_003.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task039__a_drawing_of_a_handsaw/qdaif_run_20260108_060851_it_0026.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task039__a_drawing_of_a_handsaw/qdaif_run_20260108_060851_it_0002.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task039__a_drawing_of_a_handsaw/qdaif_run_20260108_060851_it_0003.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task039__a_drawing_of_a_handsaw/qdaif_run_20260108_060851_it_0029.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task039__a_drawing_of_a_handsaw/qdaif_run_20260108_060851_it_0015.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task039__a_drawing_of_a_handsaw/qdaif_run_20260108_060851_it_0014.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task039__a_drawing_of_a_handsaw/qdaif_run_20260108_060851_it_0023.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task039__a_drawing_of_a_handsaw/qdaif_run_20260108_060851_seed_001.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task039__a_drawing_of_a_handsaw/qdaif_run_20260108_060851_seed_005.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task039__a_drawing_of_a_handsaw/qdaif_run_20260108_060851_it_0020.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task039__a_drawing_of_a_handsaw/qdaif_run_20260108_060851_it_0021.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task039__a_drawing_of_a_handsaw/qdaif_run_20260108_060851_it_0005.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task039__a_drawing_of_a_handsaw/qdaif_run_20260108_060851_it_0044.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task039__a_drawing_of_a_handsaw/qdaif_run_20260108_060851_it_0024.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task039__a_drawing_of_a_handsaw/qdaif_run_20260108_060851_it_0001.png"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 80,
+            "font_min_size": 20,
+            "chosen_font_size": 80,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t149/t149.png"
+    }
+}

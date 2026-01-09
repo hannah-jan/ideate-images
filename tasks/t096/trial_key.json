@@ -1,0 +1,79 @@
+{
+    "t096": {
+        "prompt_text": "a metallic blue sphere to the left of a yellow box made of felt",
+        "seed": 875278061453644190,
+        "seed_key": "a metallic blue sphere to the left of a yellow box made of felt|ideate|lluminate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "lluminate"
+        },
+        "left": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/sol_029.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/sol_011.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/sol_002.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/sol_021.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/sol_012.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/sol_019.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/sol_049.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/sol_034.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/sol_032.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/sol_015.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/sol_005.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/sol_033.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/sol_028.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/sol_001.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/sol_026.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/sol_044.png"
+            ]
+        },
+        "right": {
+            "label": "lluminate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/a7205c2e-031a-4958-82ce-9d8f52e73cbc.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/21769970-2e98-434c-a79b-ac56c14843b7.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/70a470db-096b-42b8-abbe-b15385dd6f44.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/962aa8bf-1576-41ca-8920-fbf12ebcb2e7.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/ddd420b2-19d1-4949-a05b-131d5de057f0.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/cec7b797-c6d7-414c-a3bb-b6d33e8e17f1.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/b88ec6ae-9e01-48af-a62c-484a19e78064.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/d89b10cb-8ab9-42d9-93ca-6f0d60ff3789.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/e8684ae9-be7e-4a5e-a740-9faadd99c043.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/ec54cc0e-d2c8-4c98-9482-3113a0949340.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/9cf76d6b-a169-4cd1-b8f2-c48e802b4759.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/907fc9b9-497c-4921-bb10-86bac4cc7546.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/4a0b8d20-5128-4fc5-a2ed-33628dbaa5ea.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/ae46f7b9-144a-4dfd-aa20-f55a879a5ee6.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/62e5cdee-89fc-4584-88ea-9fc07cdc2d7b.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task025__a_metallic_blue_sphere_to_the_left_of_a_yellow_box_made_of_felt/8b66d734-bc7b-4514-8242-4494b3214389.jpg"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 79,
+            "font_min_size": 20,
+            "chosen_font_size": 79,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t096/t096.png"
+    }
+}

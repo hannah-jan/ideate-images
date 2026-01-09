@@ -1,0 +1,79 @@
+{
+    "t130": {
+        "prompt_text": "a robot cooking in the kitchen",
+        "seed": 11593835111683480931,
+        "seed_key": "a robot cooking in the kitchen|ideate|lluminate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "lluminate"
+        },
+        "left": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task034__a_robot_cooking_in_the_kitchen",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task034__a_robot_cooking_in_the_kitchen/sol_046.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task034__a_robot_cooking_in_the_kitchen/sol_030.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task034__a_robot_cooking_in_the_kitchen/sol_002.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task034__a_robot_cooking_in_the_kitchen/sol_016.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task034__a_robot_cooking_in_the_kitchen/sol_006.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task034__a_robot_cooking_in_the_kitchen/sol_008.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task034__a_robot_cooking_in_the_kitchen/sol_001.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task034__a_robot_cooking_in_the_kitchen/sol_003.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task034__a_robot_cooking_in_the_kitchen/sol_037.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task034__a_robot_cooking_in_the_kitchen/sol_013.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task034__a_robot_cooking_in_the_kitchen/sol_026.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task034__a_robot_cooking_in_the_kitchen/sol_007.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task034__a_robot_cooking_in_the_kitchen/sol_004.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task034__a_robot_cooking_in_the_kitchen/sol_019.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task034__a_robot_cooking_in_the_kitchen/sol_028.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task034__a_robot_cooking_in_the_kitchen/sol_044.png"
+            ]
+        },
+        "right": {
+            "label": "lluminate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task034__a_robot_cooking_in_the_kitchen",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task034__a_robot_cooking_in_the_kitchen/2ee26581-29f1-42f0-8f43-06e81c08127a.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task034__a_robot_cooking_in_the_kitchen/59f4f5c5-39db-4ae6-8f9f-6435ea125d7a.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task034__a_robot_cooking_in_the_kitchen/f622b1be-da95-4b1d-84bf-af07f56d9e72.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task034__a_robot_cooking_in_the_kitchen/b2572cb1-59a4-4b73-af8b-08f7d427e0d5.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task034__a_robot_cooking_in_the_kitchen/50008393-f185-4cdf-b3c6-31c7de7e3942.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task034__a_robot_cooking_in_the_kitchen/3666e9db-d436-4404-adab-c926d100d01f.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task034__a_robot_cooking_in_the_kitchen/bfc14e25-555d-40f0-8eb6-2aaacd63c276.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task034__a_robot_cooking_in_the_kitchen/05207943-6c20-4cd4-a627-9ac47e487394.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task034__a_robot_cooking_in_the_kitchen/8c3141df-7bb7-4620-b888-8674674dbdf0.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task034__a_robot_cooking_in_the_kitchen/c4f32fa3-aa84-4673-a99c-855fdf57fe82.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task034__a_robot_cooking_in_the_kitchen/50d2ce98-79c3-498e-9875-742b415ce6c6.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task034__a_robot_cooking_in_the_kitchen/dd6f870b-d6d8-427b-a062-89e1c6b762c8.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task034__a_robot_cooking_in_the_kitchen/d6b28de0-94bd-4cb0-a812-91b1172ba687.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task034__a_robot_cooking_in_the_kitchen/da1ea4d4-65cc-47b2-a1a6-9ee9fcd60969.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task034__a_robot_cooking_in_the_kitchen/8863be7a-bd91-48a2-b945-5e59c072987d.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task034__a_robot_cooking_in_the_kitchen/4400fce4-ecd2-4163-9332-6fb3a31666e3.jpg"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 80,
+            "font_min_size": 20,
+            "chosen_font_size": 80,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t130/t130.png"
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "t076": {
+        "prompt_text": "A squirrel gives an apple to a bird",
+        "seed": 17174282005135619922,
+        "seed_key": "A squirrel gives an apple to a bird|ideate|lluminate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "lluminate"
+        },
+        "left": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task020__a_squirrel_gives_an_apple_to_a_bird",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task020__a_squirrel_gives_an_apple_to_a_bird/sol_021.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task020__a_squirrel_gives_an_apple_to_a_bird/sol_009.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task020__a_squirrel_gives_an_apple_to_a_bird/sol_012.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task020__a_squirrel_gives_an_apple_to_a_bird/sol_007.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task020__a_squirrel_gives_an_apple_to_a_bird/sol_001.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task020__a_squirrel_gives_an_apple_to_a_bird/sol_014.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task020__a_squirrel_gives_an_apple_to_a_bird/sol_030.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task020__a_squirrel_gives_an_apple_to_a_bird/sol_029.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task020__a_squirrel_gives_an_apple_to_a_bird/sol_026.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task020__a_squirrel_gives_an_apple_to_a_bird/sol_019.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task020__a_squirrel_gives_an_apple_to_a_bird/sol_022.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task020__a_squirrel_gives_an_apple_to_a_bird/sol_025.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task020__a_squirrel_gives_an_apple_to_a_bird/sol_031.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task020__a_squirrel_gives_an_apple_to_a_bird/sol_038.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task020__a_squirrel_gives_an_apple_to_a_bird/sol_008.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task020__a_squirrel_gives_an_apple_to_a_bird/sol_013.png"
+            ]
+        },
+        "right": {
+            "label": "lluminate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task020__a_squirrel_gives_an_apple_to_a_bird",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task020__a_squirrel_gives_an_apple_to_a_bird/f693cee4-7fd1-44bb-8223-61b34ab38283.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task020__a_squirrel_gives_an_apple_to_a_bird/26d4ab8b-69f0-4d7d-a259-cf92ca158420.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task020__a_squirrel_gives_an_apple_to_a_bird/e67ae9cf-fab7-4632-bfb8-78ab26d8b921.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task020__a_squirrel_gives_an_apple_to_a_bird/eaff5d28-8fcf-4973-8d7a-e017d3327172.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task020__a_squirrel_gives_an_apple_to_a_bird/90ed9c1a-e444-42c6-9668-da83cd807aaa.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task020__a_squirrel_gives_an_apple_to_a_bird/5de9cc11-32c7-4d0e-bad6-891248fa3775.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task020__a_squirrel_gives_an_apple_to_a_bird/8ed7e2ad-0187-46c8-9fc0-5ab4e7bd2f43.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task020__a_squirrel_gives_an_apple_to_a_bird/20191ee6-fae8-4a2d-a566-d0019f18c5b8.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task020__a_squirrel_gives_an_apple_to_a_bird/9f185b53-2b34-4c55-aefc-40ba2779982d.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task020__a_squirrel_gives_an_apple_to_a_bird/318c74c6-958d-4920-ad99-ec12874513f8.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task020__a_squirrel_gives_an_apple_to_a_bird/da243d82-24ae-49a9-9be3-6fc493a8cb82.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task020__a_squirrel_gives_an_apple_to_a_bird/97a6f60b-a320-4a25-9233-034e5ad912d2.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task020__a_squirrel_gives_an_apple_to_a_bird/a7cc9c6b-2e90-4a31-8566-2b51a82f5d68.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task020__a_squirrel_gives_an_apple_to_a_bird/8d212e9b-aa11-4b46-9cba-a95dad06f959.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task020__a_squirrel_gives_an_apple_to_a_bird/07197d1e-abcf-47ba-9f86-bbd534660584.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task020__a_squirrel_gives_an_apple_to_a_bird/50a21cf3-ad66-4abb-8280-5e06b51946e1.jpg"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 80,
+            "font_min_size": 20,
+            "chosen_font_size": 80,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t076/t076.png"
+    }
+}

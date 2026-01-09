@@ -1,0 +1,79 @@
+{
+    "t160": {
+        "prompt_text": "high-contrast image of the word \\\"WOMBAT\\\" written with thick colored graffiti letters on a white wall with dramatic splashes of paint",
+        "seed": 7963755430937737999,
+        "seed_key": "high-contrast image of the word \\\"WOMBAT\\\" written with thick colored graffiti letters on a white wall with dramatic splashes of paint|ideate|lluminate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "lluminate"
+        },
+        "left": {
+            "label": "lluminate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/225dc5e3-e586-425a-b30c-f6d640568171.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/4cb04d1d-48cd-4b79-8264-22119458c57e.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/127fec26-1931-4946-86e5-e27a0cce01de.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/e5f17f6f-7860-4d76-8670-70aeaeaaca43.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/fc2ef995-6c86-4091-b75b-d99a4dc7e57a.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/7933e3c0-d3b9-42f9-bfe6-21a31e4eac5f.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/e76339d8-a541-4e3f-a473-1deb54d768be.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/6a9ccd1f-e055-4f7c-a6de-0dc10f2bd082.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/440f996e-9ee6-45bf-96ec-38b1b03a69bf.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/6669f6d7-3395-4ffb-87c1-7b65aceb93ac.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/25a619fd-f064-4ab2-8919-075b5b465135.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/bf43a92a-e08c-4b3d-9496-b7e1bc3b71c5.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/1ceaea70-1131-4d19-8dd8-fc8566eaed55.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/e8260800-a8e3-4022-bd01-be9f71df1ded.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/0ec333d1-04e4-413d-abc8-6b49008f0571.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/0caaffe1-d81f-4ab1-9974-07b48b286f52.jpg"
+            ]
+        },
+        "right": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/sol_003.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/sol_021.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/sol_022.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/sol_019.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/sol_014.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/sol_050.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/sol_026.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/sol_025.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/sol_007.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/sol_049.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/sol_045.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/sol_005.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/sol_013.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/sol_015.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/sol_001.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task042__high_contrast_image_of_the_word_wombat_written_with_thick_colore/sol_044.png"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 62,
+            "font_min_size": 20,
+            "chosen_font_size": 62,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t160/t160.png"
+    }
+}

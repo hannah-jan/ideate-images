@@ -1,0 +1,79 @@
+{
+    "t032": {
+        "prompt_text": "a chemtrail passing between two clouds",
+        "seed": 13225445664793906860,
+        "seed_key": "a chemtrail passing between two clouds|ideate|lluminate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "lluminate"
+        },
+        "left": {
+            "label": "lluminate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task009__a_chemtrail_passing_between_two_clouds",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task009__a_chemtrail_passing_between_two_clouds/c2284968-f9b9-41d3-a768-e0a34a03de26.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task009__a_chemtrail_passing_between_two_clouds/b7a65d40-557a-428d-b0ec-eacc053c924e.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task009__a_chemtrail_passing_between_two_clouds/4679d396-de54-4e2b-a874-9762131e4321.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task009__a_chemtrail_passing_between_two_clouds/578e55d2-aca3-4e08-9c05-e63e11faed51.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task009__a_chemtrail_passing_between_two_clouds/fbf9f39f-e5e4-4604-b093-5b7b0c70ab43.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task009__a_chemtrail_passing_between_two_clouds/2d5588ca-7d1d-4c60-9fce-85d939d60b61.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task009__a_chemtrail_passing_between_two_clouds/bdcbedd8-d7ee-4156-bf2c-a6a1b3995ea1.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task009__a_chemtrail_passing_between_two_clouds/ef26811e-fb74-4901-9fe2-38dc019ac898.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task009__a_chemtrail_passing_between_two_clouds/470818c8-5e2b-4933-8410-83ffdb39c64a.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task009__a_chemtrail_passing_between_two_clouds/e4187072-6618-47d9-bff4-442119686251.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task009__a_chemtrail_passing_between_two_clouds/5770a035-4e00-43f0-b1d0-d8493a1ddb9d.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task009__a_chemtrail_passing_between_two_clouds/530ba4ae-bbc9-48e5-b7ad-080f187312a9.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task009__a_chemtrail_passing_between_two_clouds/fe0d515f-4878-4bc3-9bab-2853efd9c4a5.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task009__a_chemtrail_passing_between_two_clouds/446f96b7-f08f-4a65-a869-d068a92c2176.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task009__a_chemtrail_passing_between_two_clouds/32fe7c67-28dd-473b-8d05-5b07f5d857b5.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task009__a_chemtrail_passing_between_two_clouds/d9890af6-7723-4820-a147-a6810a08a12e.jpg"
+            ]
+        },
+        "right": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task009__a_chemtrail_passing_between_two_clouds",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task009__a_chemtrail_passing_between_two_clouds/sol_026.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task009__a_chemtrail_passing_between_two_clouds/sol_022.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task009__a_chemtrail_passing_between_two_clouds/sol_005.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task009__a_chemtrail_passing_between_two_clouds/sol_014.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task009__a_chemtrail_passing_between_two_clouds/sol_023.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task009__a_chemtrail_passing_between_two_clouds/sol_024.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task009__a_chemtrail_passing_between_two_clouds/sol_003.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task009__a_chemtrail_passing_between_two_clouds/sol_030.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task009__a_chemtrail_passing_between_two_clouds/sol_006.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task009__a_chemtrail_passing_between_two_clouds/sol_017.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task009__a_chemtrail_passing_between_two_clouds/sol_009.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task009__a_chemtrail_passing_between_two_clouds/sol_001.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task009__a_chemtrail_passing_between_two_clouds/sol_036.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task009__a_chemtrail_passing_between_two_clouds/sol_012.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task009__a_chemtrail_passing_between_two_clouds/sol_019.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task009__a_chemtrail_passing_between_two_clouds/sol_007.png"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 80,
+            "font_min_size": 20,
+            "chosen_font_size": 80,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t032/t032.png"
+    }
+}

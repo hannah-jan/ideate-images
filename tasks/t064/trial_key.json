@@ -1,0 +1,79 @@
+{
+    "t064": {
+        "prompt_text": "The coach smiled at the player tossed the frisbee",
+        "seed": 1537360026925713606,
+        "seed_key": "The coach smiled at the player tossed the frisbee|ideate|lluminate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "lluminate"
+        },
+        "left": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/sol_020.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/sol_021.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/sol_023.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/sol_019.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/sol_015.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/sol_006.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/sol_012.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/sol_044.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/sol_009.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/sol_017.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/sol_004.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/sol_026.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/sol_002.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/sol_003.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/sol_010.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/sol_022.png"
+            ]
+        },
+        "right": {
+            "label": "lluminate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/78d29483-4a9c-423d-9cc0-739c23f2c67c.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/c9be7d99-e2c1-4ae9-9353-76403df6333a.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/5365906f-d70c-4364-912b-278370a51d40.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/640abbf0-240c-476a-a45e-5a6e249c6ce6.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/8a0f1c5c-bbec-4e62-adba-e781686d1857.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/5884ee80-7c95-4108-b79b-09afdee46836.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/c8829ffa-fbba-49bf-a9fe-d87e578e7a3f.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/05bb028f-b40a-43cb-bc5d-6fee07ad968e.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/d40670b9-45f2-494d-b912-0d658c1558e9.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/729147c0-a8a7-4776-9507-96f2f2d1cee0.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/e60b8970-08b4-4cc0-9010-7f70b1a17edf.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/1f6c90c4-9868-4cdb-b129-8c55df1bb09d.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/dd4b510b-c269-46a7-bdad-624731768851.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/dd8fcc70-1c74-4267-b44b-14d7749a33ae.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/5aa02304-701d-491e-b5eb-079207aced2f.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task017__the_coach_smiled_at_the_player_tossed_the_frisbee/38924539-f392-4b1b-a23d-7579d5d44960.jpg"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 80,
+            "font_min_size": 20,
+            "chosen_font_size": 80,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t064/t064.png"
+    }
+}

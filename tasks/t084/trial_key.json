@@ -1,0 +1,79 @@
+{
+    "t084": {
+        "prompt_text": "an aerial view of the Great Wall",
+        "seed": 8128402346401868852,
+        "seed_key": "an aerial view of the Great Wall|ideate|lluminate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "lluminate"
+        },
+        "left": {
+            "label": "lluminate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task022__an_aerial_view_of_the_great_wall",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task022__an_aerial_view_of_the_great_wall/51658db7-1eff-446d-8b01-a5a318d36ea7.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task022__an_aerial_view_of_the_great_wall/5d92701c-4dd6-4314-b3f0-a4337b65fb97.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task022__an_aerial_view_of_the_great_wall/45e5ef1f-5d87-4a0f-bb99-079a7643b713.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task022__an_aerial_view_of_the_great_wall/e7dfce31-76a2-4e7a-a4f2-88fe890a441a.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task022__an_aerial_view_of_the_great_wall/0da1260c-5426-413a-9f87-d8b598f43279.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task022__an_aerial_view_of_the_great_wall/5416cdd0-17d6-44bd-9cd7-65b107dfff35.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task022__an_aerial_view_of_the_great_wall/910d9863-ee82-4c07-974a-6a85802722c1.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task022__an_aerial_view_of_the_great_wall/d0656064-04a0-4e5f-b946-28dd5d104cbd.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task022__an_aerial_view_of_the_great_wall/68b0ee5b-3253-4358-a388-c36331c153b9.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task022__an_aerial_view_of_the_great_wall/845798bc-f38c-4cf2-ac91-749e1bb96217.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task022__an_aerial_view_of_the_great_wall/93bd9dfe-dd25-40df-a742-722ed7878172.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task022__an_aerial_view_of_the_great_wall/1ecbd537-ecce-4b1b-93ab-2cc74ce2a1d7.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task022__an_aerial_view_of_the_great_wall/5a36a207-d9b9-4d3c-b823-295730d45b95.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task022__an_aerial_view_of_the_great_wall/c5be9d24-19d8-4159-9f6f-92a30fbcb1c2.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task022__an_aerial_view_of_the_great_wall/3acc052d-54ab-4869-8526-ea57af4f7757.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task022__an_aerial_view_of_the_great_wall/2bf0e796-80f8-42d6-8ea2-b5d37adc1585.jpg"
+            ]
+        },
+        "right": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task022__an_aerial_view_of_the_great_wall",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task022__an_aerial_view_of_the_great_wall/sol_019.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task022__an_aerial_view_of_the_great_wall/sol_046.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task022__an_aerial_view_of_the_great_wall/sol_043.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task022__an_aerial_view_of_the_great_wall/sol_044.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task022__an_aerial_view_of_the_great_wall/sol_026.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task022__an_aerial_view_of_the_great_wall/sol_015.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task022__an_aerial_view_of_the_great_wall/sol_041.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task022__an_aerial_view_of_the_great_wall/sol_012.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task022__an_aerial_view_of_the_great_wall/sol_006.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task022__an_aerial_view_of_the_great_wall/sol_018.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task022__an_aerial_view_of_the_great_wall/sol_004.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task022__an_aerial_view_of_the_great_wall/sol_020.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task022__an_aerial_view_of_the_great_wall/sol_008.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task022__an_aerial_view_of_the_great_wall/sol_005.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task022__an_aerial_view_of_the_great_wall/sol_024.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task022__an_aerial_view_of_the_great_wall/sol_001.png"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 80,
+            "font_min_size": 20,
+            "chosen_font_size": 80,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t084/t084.png"
+    }
+}

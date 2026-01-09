@@ -1,0 +1,79 @@
+{
+    "t001": {
+        "prompt_text": "a chair",
+        "seed": 16731238343986578532,
+        "seed_key": "a chair|dp_replay|ideate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "dp_replay"
+        },
+        "left": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task001__a_chair",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task001__a_chair/sol_018.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task001__a_chair/sol_001.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task001__a_chair/sol_005.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task001__a_chair/sol_024.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task001__a_chair/sol_013.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task001__a_chair/sol_010.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task001__a_chair/sol_020.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task001__a_chair/sol_023.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task001__a_chair/sol_014.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task001__a_chair/sol_016.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task001__a_chair/sol_002.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task001__a_chair/sol_048.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task001__a_chair/sol_003.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task001__a_chair/sol_045.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task001__a_chair/sol_025.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task001__a_chair/sol_004.png"
+            ]
+        },
+        "right": {
+            "label": "dp_replay",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task001__a_chair",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task001__a_chair/sol_024.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task001__a_chair/sol_012.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task001__a_chair/sol_046.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task001__a_chair/sol_039.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task001__a_chair/sol_019.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task001__a_chair/sol_034.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task001__a_chair/sol_007.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task001__a_chair/sol_011.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task001__a_chair/sol_047.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task001__a_chair/sol_022.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task001__a_chair/sol_025.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task001__a_chair/sol_004.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task001__a_chair/sol_013.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task001__a_chair/sol_028.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task001__a_chair/sol_016.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task001__a_chair/sol_032.png"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 64,
+            "font_min_size": 20,
+            "chosen_font_size": 64,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t001/t001.png"
+    }
+}

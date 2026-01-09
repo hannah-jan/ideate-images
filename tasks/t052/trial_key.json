@@ -1,0 +1,79 @@
+{
+    "t052": {
+        "prompt_text": "square blue apples on a tree with circular yellow leaves",
+        "seed": 1001500506575036651,
+        "seed_key": "square blue apples on a tree with circular yellow leaves|ideate|lluminate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "lluminate"
+        },
+        "left": {
+            "label": "lluminate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/fbab1d30-3bbe-4e33-9464-2798358440ad.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/e86ee22c-0ed6-4a1e-98b3-9d80ef35ac1a.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/cd5ee450-685a-42b7-b619-765e097228ae.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/b901f117-1bb2-4028-90d9-c756de82303c.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/2ae28c17-741b-49e4-a5f9-8d8f7af713d6.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/6da58cbd-c792-4504-ae56-44dc105c4b22.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/0cfde3ee-2ea5-40fc-988f-a8fa4c4d015b.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/13c5f016-fdf3-4ea9-94f9-620d5bf85989.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/99c1d1fa-d99f-4d61-b6d2-78e562aa401e.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/85244adc-2508-457a-8b79-b4c715a11f65.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/523f6959-1f08-4cf7-88f8-8e9d93bc17be.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/d0447f42-8b7b-429f-9a70-e62a390d4f3b.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/68d445ad-65d5-4b04-b3df-2bcd94b59d25.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/044ebe31-aa20-41ee-b6d7-fe6ccaef4590.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/bc1a0670-1a15-4f34-ac3f-afb46735af28.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/20394c9d-109d-4e09-8dd3-f730c87781ae.jpg"
+            ]
+        },
+        "right": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/sol_005.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/sol_028.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/sol_021.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/sol_040.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/sol_003.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/sol_016.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/sol_022.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/sol_007.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/sol_023.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/sol_006.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/sol_010.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/sol_025.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/sol_012.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/sol_011.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/sol_026.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task014__square_blue_apples_on_a_tree_with_circular_yellow_leaves/sol_018.png"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 80,
+            "font_min_size": 20,
+            "chosen_font_size": 80,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t052/t052.png"
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "t138": {
+        "prompt_text": "a small airplane",
+        "seed": 5649380286148680312,
+        "seed_key": "a small airplane|ideate|lluminate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "lluminate"
+        },
+        "left": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task036__a_small_airplane",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task036__a_small_airplane/sol_026.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task036__a_small_airplane/sol_018.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task036__a_small_airplane/sol_030.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task036__a_small_airplane/sol_033.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task036__a_small_airplane/sol_023.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task036__a_small_airplane/sol_032.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task036__a_small_airplane/sol_014.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task036__a_small_airplane/sol_035.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task036__a_small_airplane/sol_021.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task036__a_small_airplane/sol_024.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task036__a_small_airplane/sol_009.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task036__a_small_airplane/sol_001.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task036__a_small_airplane/sol_002.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task036__a_small_airplane/sol_016.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task036__a_small_airplane/sol_040.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task036__a_small_airplane/sol_022.png"
+            ]
+        },
+        "right": {
+            "label": "lluminate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task036__a_small_airplane",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task036__a_small_airplane/566dc1f2-008b-4b0d-8230-a73c7ada7024.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task036__a_small_airplane/5263160a-f706-4096-b268-f4177448f795.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task036__a_small_airplane/a3f46916-6559-455c-b810-f163fe853810.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task036__a_small_airplane/43e4aef9-4d43-4046-9915-3403a66604dd.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task036__a_small_airplane/bc96c2df-8dab-4d55-90df-743dd76bd6c3.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task036__a_small_airplane/1fdd709a-cb19-4be5-81f0-59173e3350f0.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task036__a_small_airplane/a525c8e6-da55-4158-b5ef-79edfcf02dc0.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task036__a_small_airplane/f9fef0b5-8019-4d40-909d-5771c60bd190.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task036__a_small_airplane/1ced2aaf-a568-4f5b-8060-a4c1b7202b69.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task036__a_small_airplane/286cb6f0-d30a-4e56-b5cd-3c9da5ddc8cd.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task036__a_small_airplane/41df2e4e-a4fb-42e2-a4c8-762f33d3fbff.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task036__a_small_airplane/a951e200-0ced-4f7a-929d-b2482f0460db.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task036__a_small_airplane/703e07a2-c7a3-4fc1-ace3-606d862adc4e.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task036__a_small_airplane/a99f940d-f220-4e5a-926c-929aebed9fc9.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task036__a_small_airplane/008adb41-6fba-4b6a-8037-9b7ab183cce1.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task036__a_small_airplane/98c16b22-a481-487a-953a-fb989ac77b19.jpg"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 64,
+            "font_min_size": 20,
+            "chosen_font_size": 64,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t138/t138.png"
+    }
+}

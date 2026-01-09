@@ -1,0 +1,79 @@
+{
+    "t134": {
+        "prompt_text": "a bloody mary cocktail",
+        "seed": 433469183358774693,
+        "seed_key": "a bloody mary cocktail|ideate|lluminate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "lluminate"
+        },
+        "left": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task035__a_bloody_mary_cocktail",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task035__a_bloody_mary_cocktail/sol_001.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task035__a_bloody_mary_cocktail/sol_035.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task035__a_bloody_mary_cocktail/sol_034.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task035__a_bloody_mary_cocktail/sol_006.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task035__a_bloody_mary_cocktail/sol_010.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task035__a_bloody_mary_cocktail/sol_021.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task035__a_bloody_mary_cocktail/sol_003.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task035__a_bloody_mary_cocktail/sol_030.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task035__a_bloody_mary_cocktail/sol_029.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task035__a_bloody_mary_cocktail/sol_041.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task035__a_bloody_mary_cocktail/sol_007.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task035__a_bloody_mary_cocktail/sol_044.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task035__a_bloody_mary_cocktail/sol_015.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task035__a_bloody_mary_cocktail/sol_013.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task035__a_bloody_mary_cocktail/sol_014.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task035__a_bloody_mary_cocktail/sol_033.png"
+            ]
+        },
+        "right": {
+            "label": "lluminate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task035__a_bloody_mary_cocktail",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task035__a_bloody_mary_cocktail/77780ea0-d758-4a65-9be3-290abefb8fa7.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task035__a_bloody_mary_cocktail/1dd0595b-8649-457d-a362-2b80f2510907.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task035__a_bloody_mary_cocktail/9871c10a-f343-4f9f-ae66-af42b06697a8.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task035__a_bloody_mary_cocktail/3ec722a5-9559-48db-8a28-9c9ca661f520.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task035__a_bloody_mary_cocktail/378632ca-0c07-4cfb-9b24-0eeb75312a9c.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task035__a_bloody_mary_cocktail/359398e1-3899-4621-9c93-ec6e6722446c.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task035__a_bloody_mary_cocktail/e430b9ac-290b-4396-b58c-0e2b665e28a0.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task035__a_bloody_mary_cocktail/cfb5ad8c-0c10-4568-aef0-737b9e240c8d.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task035__a_bloody_mary_cocktail/5f86e32a-0c48-4f4b-8a34-c46b9184c8a4.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task035__a_bloody_mary_cocktail/d60e42d2-b396-42d5-be10-092f1f84d07a.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task035__a_bloody_mary_cocktail/15032f37-1c3c-4d43-bc58-f801ed4a8e00.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task035__a_bloody_mary_cocktail/a0963e97-ee96-4f13-a98f-0e0547394931.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task035__a_bloody_mary_cocktail/b67314af-78b9-4f11-833f-84bc0eefc3aa.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task035__a_bloody_mary_cocktail/988da572-7430-41a7-8bd4-09c84bc85307.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task035__a_bloody_mary_cocktail/d3ac19ea-7bc0-425f-b690-408c5c53e5f6.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task035__a_bloody_mary_cocktail/ec7c492c-a6ae-4eb5-90c9-e2596a8eb0b7.jpg"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 80,
+            "font_min_size": 20,
+            "chosen_font_size": 80,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t134/t134.png"
+    }
+}

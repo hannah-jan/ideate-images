@@ -1,0 +1,79 @@
+{
+    "t112": {
+        "prompt_text": "two red boxes",
+        "seed": 1850243011589178807,
+        "seed_key": "two red boxes|ideate|lluminate",
+        "my_side": null,
+        "methods": {
+            "method_a": "ideate",
+            "method_b": "lluminate"
+        },
+        "left": {
+            "label": "ideate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task029__two_red_boxes",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task029__two_red_boxes/sol_029.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task029__two_red_boxes/sol_022.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task029__two_red_boxes/sol_009.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task029__two_red_boxes/sol_031.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task029__two_red_boxes/sol_007.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task029__two_red_boxes/sol_012.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task029__two_red_boxes/sol_041.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task029__two_red_boxes/sol_046.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task029__two_red_boxes/sol_006.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task029__two_red_boxes/sol_011.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task029__two_red_boxes/sol_023.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task029__two_red_boxes/sol_042.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task029__two_red_boxes/sol_019.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task029__two_red_boxes/sol_028.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task029__two_red_boxes/sol_021.png",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task029__two_red_boxes/sol_004.png"
+            ]
+        },
+        "right": {
+            "label": "lluminate",
+            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task029__two_red_boxes",
+            "images": [
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task029__two_red_boxes/8c8b457b-5c2a-49ac-86df-ce0bb1134277.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task029__two_red_boxes/2a510e20-a236-4025-bc39-c0c3ef57ead8.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task029__two_red_boxes/55fccce1-c127-41d1-8f91-c64558f827b9.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task029__two_red_boxes/532f6f84-e9d8-413c-90db-b9a8576b8966.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task029__two_red_boxes/5412bb93-4b57-4ef0-84b6-c6e98883fa6a.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task029__two_red_boxes/8844e6cd-e451-4014-ab78-c2c930645dae.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task029__two_red_boxes/3230a63c-bda7-464b-accc-076fe210ec41.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task029__two_red_boxes/d9b13dd1-73fd-4d39-9e0c-8b86aac11868.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task029__two_red_boxes/0f57100d-820b-430a-9411-26b2da8230d9.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task029__two_red_boxes/b7695a0d-7105-42f7-a87f-b11d51493a48.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task029__two_red_boxes/401a9d8b-169c-430b-a38f-39a8625df419.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task029__two_red_boxes/cb6e5940-d66d-44c6-9747-5b254efd190e.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task029__two_red_boxes/058f21ee-ba18-4caf-bef4-55bce51d5551.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task029__two_red_boxes/82c147fc-0d6b-4aaf-8286-ca37b6c0eb6d.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task029__two_red_boxes/268e1b5f-f159-4514-b09f-f0bac7f22268.jpg",
+                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task029__two_red_boxes/90baf48a-1a1d-4897-847a-e64a2926e6ea.jpg"
+            ]
+        },
+        "layout": {
+            "thumbnail_size": [
+                384,
+                216
+            ],
+            "grid_padding": 8,
+            "outer_margin": 60,
+            "section_gap": 220,
+            "header_height": 220,
+            "header_gap": 40,
+            "font_max_size": 80,
+            "dynamic_font_max_size": 64,
+            "font_min_size": 20,
+            "chosen_font_size": 64,
+            "header_text_safe_margin_x": 60,
+            "header_text_safe_margin_y": 20,
+            "fit_mode": "cover",
+            "font_bold": true,
+            "fake_bold_px": 1,
+            "letter_spacing_px": 2,
+            "font_path": "/System/Library/Fonts/SFNS.ttf"
+        },
+        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t112/t112.png"
+    }
+}
