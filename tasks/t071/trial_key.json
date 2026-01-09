@@ -1,79 +1,40 @@
 {
-    "t071": {
-        "prompt_text": "A robot gives a wombat an orange and a lemur a banana.",
-        "seed": 12574370338357308772,
-        "seed_key": "A robot gives a wombat an orange and a lemur a banana.|ideate|qdaif",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "qdaif"
-        },
-        "left": {
-            "label": "qdaif",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/qdaif_run_20260108_011546_seed_005.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/qdaif_run_20260108_011546_it_0025.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/qdaif_run_20260108_011546_it_0020.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/qdaif_run_20260108_011546_seed_004.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/qdaif_run_20260108_011546_it_0004.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/qdaif_run_20260108_011546_it_0002.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/qdaif_run_20260108_011546_it_0018.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/qdaif_run_20260108_011546_it_0031.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/qdaif_run_20260108_011546_it_0022.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/qdaif_run_20260108_011546_it_0045.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/qdaif_run_20260108_011546_it_0009.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/qdaif_run_20260108_011546_it_0010.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/qdaif_run_20260108_011546_it_0005.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/qdaif_run_20260108_011546_it_0019.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/qdaif_run_20260108_011546_it_0012.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/qdaif_run_20260108_011546_it_0011.png"
-            ]
-        },
-        "right": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/sol_012.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/sol_010.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/sol_023.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/sol_003.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/sol_014.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/sol_039.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/sol_033.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/sol_008.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/sol_001.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/sol_026.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/sol_032.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/sol_007.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/sol_050.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/sol_011.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/sol_016.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task019__a_robot_gives_a_wombat_an_orange_and_a_lemur_a_banana/sol_021.png"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 80,
-            "font_min_size": 20,
-            "chosen_font_size": 80,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t071/t071.png"
+  "t071": {
+    "prompt_text": "A robot gives a wombat an orange and a lemur a banana.",
+    "seed": 12574370338357308772,
+    "seed_key": "A robot gives a wombat an orange and a lemur a banana.|ideate|qdaif",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "qdaif"
+    },
+    "left": {
+      "label": "qdaif"
+    },
+    "right": {
+      "label": "ideate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 80,
+      "font_min_size": 20,
+      "chosen_font_size": 80,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

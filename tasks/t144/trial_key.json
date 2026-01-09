@@ -1,79 +1,40 @@
 {
-    "t144": {
-        "prompt_text": "an abstract painting of a pond with a bridge",
-        "seed": 13620428661587159209,
-        "seed_key": "an abstract painting of a pond with a bridge|ideate|one_shot_replay",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "one_shot_replay"
-        },
-        "left": {
-            "label": "one_shot_replay",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/one_shot_replay/task038__an_abstract_painting_of_a_pond_with_a_bridge",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/one_shot_replay/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_007.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/one_shot_replay/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_009.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/one_shot_replay/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_006.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/one_shot_replay/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_022.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/one_shot_replay/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_024.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/one_shot_replay/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_008.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/one_shot_replay/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_010.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/one_shot_replay/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_012.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/one_shot_replay/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_026.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/one_shot_replay/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_011.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/one_shot_replay/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_003.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/one_shot_replay/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_039.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/one_shot_replay/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_005.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/one_shot_replay/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_017.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/one_shot_replay/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_023.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/one_shot_replay/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_021.png"
-            ]
-        },
-        "right": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task038__an_abstract_painting_of_a_pond_with_a_bridge",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_043.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_020.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_011.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_021.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_012.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_017.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_026.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_028.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_008.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_013.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_015.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_047.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_029.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_016.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_002.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task038__an_abstract_painting_of_a_pond_with_a_bridge/sol_019.png"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 80,
-            "font_min_size": 20,
-            "chosen_font_size": 80,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t144/t144.png"
+  "t144": {
+    "prompt_text": "an abstract painting of a pond with a bridge",
+    "seed": 13620428661587159209,
+    "seed_key": "an abstract painting of a pond with a bridge|ideate|one_shot_replay",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "one_shot_replay"
+    },
+    "left": {
+      "label": "one_shot_replay"
+    },
+    "right": {
+      "label": "ideate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 80,
+      "font_min_size": 20,
+      "chosen_font_size": 80,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

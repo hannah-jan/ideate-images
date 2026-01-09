@@ -1,79 +1,40 @@
 {
-    "t056": {
-        "prompt_text": "Dogs sitting around a poker table with beer bottles and chips. Their hands are holding cards.",
-        "seed": 4470372808261817528,
-        "seed_key": "Dogs sitting around a poker table with beer bottles and chips. Their hands are holding cards.|ideate|lluminate",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "lluminate"
-        },
-        "left": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/sol_003.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/sol_025.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/sol_020.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/sol_044.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/sol_028.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/sol_004.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/sol_014.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/sol_045.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/sol_022.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/sol_038.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/sol_008.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/sol_023.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/sol_006.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/sol_032.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/sol_050.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/sol_009.png"
-            ]
-        },
-        "right": {
-            "label": "lluminate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/227a6669-957b-4628-9f0e-d382243b21c1.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/f0c4f174-9910-4dd1-9162-86bf62fa8d4f.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/4c0239f6-b7b9-4f05-ad3b-b240a005af73.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/d6146302-3ea4-4279-b1fe-8bcd46e94646.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/d896e749-9145-4c55-8d78-2c8b6899169b.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/715d5edc-c05e-4578-a2d8-722bad76a143.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/6dbbf57d-896d-428b-930f-1de96fa47551.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/dc37ab93-65de-4b27-aed7-f716dd12dee0.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/83b2b329-7b06-4853-b3b2-da76fa05d8b1.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/d667d76b-39cc-469c-bcd2-d63521a296cf.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/5b96c085-a728-46f2-a57b-eb45d54518f6.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/29c1813c-5477-4258-9d09-aabcb9d5be11.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/c1757493-e2c5-40e5-87de-1c50140b6dc1.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/eaa670d7-b93c-484f-871a-ab45d8c11203.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/331677b0-2f68-4bcf-9406-9fba0567398e.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task015__dogs_sitting_around_a_poker_table_with_beer_bottles_and_chips_th/7a6a3e95-53ce-40f8-80d7-487976699d35.jpg"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 71,
-            "font_min_size": 20,
-            "chosen_font_size": 71,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t056/t056.png"
+  "t056": {
+    "prompt_text": "Dogs sitting around a poker table with beer bottles and chips. Their hands are holding cards.",
+    "seed": 4470372808261817528,
+    "seed_key": "Dogs sitting around a poker table with beer bottles and chips. Their hands are holding cards.|ideate|lluminate",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "lluminate"
+    },
+    "left": {
+      "label": "ideate"
+    },
+    "right": {
+      "label": "lluminate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 71,
+      "font_min_size": 20,
+      "chosen_font_size": 71,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

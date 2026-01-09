@@ -1,79 +1,40 @@
 {
-    "t044": {
-        "prompt_text": "a silver doorknocker on a mahoghany door",
-        "seed": 8786769708937156037,
-        "seed_key": "a silver doorknocker on a mahoghany door|ideate|lluminate",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "lluminate"
-        },
-        "left": {
-            "label": "lluminate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task012__a_silver_doorknocker_on_a_mahoghany_door",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task012__a_silver_doorknocker_on_a_mahoghany_door/b339d7d6-71da-469f-bc9c-5ad40cc97979.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task012__a_silver_doorknocker_on_a_mahoghany_door/d0427fe6-ac5e-41ba-8203-9c14a46ae758.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task012__a_silver_doorknocker_on_a_mahoghany_door/d9c3d6a1-0f8a-46f9-8c97-4fd2d1926116.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task012__a_silver_doorknocker_on_a_mahoghany_door/a8e723ee-bc36-436a-916a-29c3e7e174f1.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task012__a_silver_doorknocker_on_a_mahoghany_door/c72c9cf8-da97-43c7-b49c-abcb128c2765.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task012__a_silver_doorknocker_on_a_mahoghany_door/db633e57-31bb-4b5f-bc51-6540fe7f4ee2.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task012__a_silver_doorknocker_on_a_mahoghany_door/b5d08fe6-f01b-42b8-bfd3-b21f8a1584c5.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task012__a_silver_doorknocker_on_a_mahoghany_door/c368cb30-ad5a-42d2-ab82-5c52082f8bb4.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task012__a_silver_doorknocker_on_a_mahoghany_door/37b95c88-7d2e-4780-b217-ee91a46e117b.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task012__a_silver_doorknocker_on_a_mahoghany_door/778244c0-e3aa-4037-8ec9-73fc03caab28.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task012__a_silver_doorknocker_on_a_mahoghany_door/e4f7851c-e3ad-4732-a9b3-a5bdc7ffeff7.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task012__a_silver_doorknocker_on_a_mahoghany_door/477df459-8ef5-4bc3-982b-ca9cba61b86f.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task012__a_silver_doorknocker_on_a_mahoghany_door/e5755bc4-aaa7-46f6-b36b-5e5e44e72252.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task012__a_silver_doorknocker_on_a_mahoghany_door/285cd253-f89e-4e83-9b12-13e92bab7cc2.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task012__a_silver_doorknocker_on_a_mahoghany_door/9d1d9c35-8f93-4e03-bf60-d6955a6586c5.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task012__a_silver_doorknocker_on_a_mahoghany_door/3b212754-fdcc-4ef3-80c7-5cba0de63f45.jpg"
-            ]
-        },
-        "right": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_004.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_023.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_043.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_032.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_035.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_028.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_005.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_040.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_014.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_020.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_021.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_001.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_034.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_031.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_037.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_033.png"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 80,
-            "font_min_size": 20,
-            "chosen_font_size": 80,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t044/t044.png"
+  "t044": {
+    "prompt_text": "a silver doorknocker on a mahoghany door",
+    "seed": 8786769708937156037,
+    "seed_key": "a silver doorknocker on a mahoghany door|ideate|lluminate",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "lluminate"
+    },
+    "left": {
+      "label": "lluminate"
+    },
+    "right": {
+      "label": "ideate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 80,
+      "font_min_size": 20,
+      "chosen_font_size": 80,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

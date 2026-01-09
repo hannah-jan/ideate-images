@@ -1,79 +1,40 @@
 {
-    "t008": {
-        "prompt_text": "a marina",
-        "seed": 6409634310358857479,
-        "seed_key": "a marina|ideate|lluminate",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "lluminate"
-        },
-        "left": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task002__a_marina",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task002__a_marina/sol_017.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task002__a_marina/sol_022.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task002__a_marina/sol_007.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task002__a_marina/sol_021.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task002__a_marina/sol_015.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task002__a_marina/sol_016.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task002__a_marina/sol_030.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task002__a_marina/sol_011.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task002__a_marina/sol_020.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task002__a_marina/sol_009.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task002__a_marina/sol_008.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task002__a_marina/sol_039.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task002__a_marina/sol_031.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task002__a_marina/sol_002.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task002__a_marina/sol_006.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task002__a_marina/sol_018.png"
-            ]
-        },
-        "right": {
-            "label": "lluminate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task002__a_marina",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task002__a_marina/57e6206e-9454-4db2-959a-165fd52b8c9a.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task002__a_marina/15f4539d-9cbc-428b-ae5f-9bf082997672.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task002__a_marina/7aae5e09-c148-49e8-aa52-b0a1193567ea.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task002__a_marina/dbc7c178-ded0-4f32-b476-c50ed6f59bc3.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task002__a_marina/c28e042d-e887-4e89-b3bf-fb4bca30676f.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task002__a_marina/b5534cd7-b741-46d3-93e5-8f2b55d7dc76.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task002__a_marina/1b35bcbb-d921-45de-bf37-530a4312d9be.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task002__a_marina/efce17d2-8632-4e38-8e5a-4928ef303fee.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task002__a_marina/7db258cb-1380-4de3-afa2-e99e81c7bc38.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task002__a_marina/c772d48e-69e7-46d9-8a62-95dfd9a1aeb3.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task002__a_marina/24f2a8f0-ef8a-44db-b556-e8ce49a4f44d.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task002__a_marina/fc279878-7245-4269-be1c-283ef6b20a5e.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task002__a_marina/6e0769c9-d65b-420a-bf16-e0232cc3948a.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task002__a_marina/5e265bd9-ba84-4d27-a36d-224db7920e67.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task002__a_marina/206d47f4-c920-48d3-bf38-580a266479cc.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task002__a_marina/18bc4a10-3207-43e2-9550-4887bb050c45.jpg"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 64,
-            "font_min_size": 20,
-            "chosen_font_size": 64,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t008/t008.png"
+  "t008": {
+    "prompt_text": "a marina",
+    "seed": 6409634310358857479,
+    "seed_key": "a marina|ideate|lluminate",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "lluminate"
+    },
+    "left": {
+      "label": "ideate"
+    },
+    "right": {
+      "label": "lluminate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 64,
+      "font_min_size": 20,
+      "chosen_font_size": 64,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

@@ -1,79 +1,40 @@
 {
-    "t023": {
-        "prompt_text": "A warrior wombat holding a sword and shield in a fighting stance. The wombat stands in front of the Arc de Triomphe on a day shrouded mist with the sun high in the sky.",
-        "seed": 4937457752282056593,
-        "seed_key": "A warrior wombat holding a sword and shield in a fighting stance. The wombat stands in front of the Arc de Triomphe on a day shrouded mist with the sun high in the sky.|ideate|lluminate",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "lluminate"
-        },
-        "left": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/sol_002.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/sol_008.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/sol_022.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/sol_001.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/sol_006.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/sol_030.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/sol_029.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/sol_046.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/sol_019.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/sol_004.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/sol_018.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/sol_012.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/sol_025.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/sol_017.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/sol_013.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/sol_011.png"
-            ]
-        },
-        "right": {
-            "label": "lluminate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/7cd39aad-1393-4efd-b1d7-2e85cc730947.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/b5957d7f-c006-4cd8-b8c0-67568770c0ba.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/e922dbff-1997-4925-8ece-dfd82c8f5716.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/725959f4-99bf-4dd1-a0c0-72885f768ff2.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/789de3f7-d785-439d-9dbf-344653d88d4a.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/b569773c-fd0a-4d32-9788-1c61af8c510b.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/2b6ad68c-f8d9-4cad-9667-12c71cbfafd8.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/0458f229-03af-4056-93bd-2188bacd048d.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/4e0a07eb-177f-4d81-b039-b48db0263248.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/ee511ff3-4bbe-4c65-a75f-77a063d8faeb.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/d48cf263-1a4b-4cef-824c-8ea614ce34cd.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/a563f817-ff0a-49bb-9dc1-1da048cf7e55.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/c1757aed-2c8a-41ba-8e02-e8e93b71138c.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/9a5fd045-ebd3-4de6-8efc-b9ebc1c40dc3.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/c7946835-7b17-437f-b823-d1939d965f1d.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task006__a_warrior_wombat_holding_a_sword_and_shield_in_a_fighting_stance/59d75b0b-36b4-43f9-98ab-f72296f6c215.jpg"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 57,
-            "font_min_size": 20,
-            "chosen_font_size": 57,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t023/t023.png"
+  "t023": {
+    "prompt_text": "A warrior wombat holding a sword and shield in a fighting stance. The wombat stands in front of the Arc de Triomphe on a day shrouded mist with the sun high in the sky.",
+    "seed": 4937457752282056593,
+    "seed_key": "A warrior wombat holding a sword and shield in a fighting stance. The wombat stands in front of the Arc de Triomphe on a day shrouded mist with the sun high in the sky.|ideate|lluminate",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "lluminate"
+    },
+    "left": {
+      "label": "ideate"
+    },
+    "right": {
+      "label": "lluminate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 57,
+      "font_min_size": 20,
+      "chosen_font_size": 57,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

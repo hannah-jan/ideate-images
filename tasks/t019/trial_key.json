@@ -1,79 +1,40 @@
 {
-    "t019": {
-        "prompt_text": "A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of Rembrandt.",
-        "seed": 7450554894421817555,
-        "seed_key": "A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of Rembrandt.|ideate|lluminate",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "lluminate"
-        },
-        "left": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/sol_050.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/sol_005.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/sol_007.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/sol_004.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/sol_025.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/sol_019.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/sol_041.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/sol_009.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/sol_023.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/sol_012.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/sol_015.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/sol_039.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/sol_008.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/sol_010.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/sol_022.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/sol_013.png"
-            ]
-        },
-        "right": {
-            "label": "lluminate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/982603ce-239c-40dd-88e5-c3d18e68b18e.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/a195bc7f-15c1-42a2-aa2a-db927171f870.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/b9f098dd-000d-45a7-9c9c-6aadcd0f936e.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/cb90260a-d6d4-49a6-a7ca-31a2998ec8ec.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/9b593992-e9ff-401d-b630-960fd186d962.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/17187de8-3f6c-4946-acbc-6cbd1e1f61c7.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/6a2df5d7-1519-4520-94a7-0170d0bddbaa.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/3d0addde-dfa3-46f0-9fb1-a142087c5af0.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/5e93f75d-8ea9-44a6-a4b4-20773919bde2.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/5ad3dcc1-c60b-4f0f-bcb6-dfc04c8eca29.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/d364a50f-72c7-4ce6-9b56-3f39f3ad9807.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/7c5b41a1-b42e-4da2-9cd8-4312424a1266.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/fcb29269-ad21-42da-aa86-96dd44e04394.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/039fb19b-b898-49f0-aaea-d68158569cd0.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/df29eac4-b914-4e72-ac41-cdd9ca9f6080.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task005__a_raccoon_wearing_formal_clothes_wearing_a_tophat_and_holding_a_/9caaf84d-ca56-4dd3-9aa1-b1f9ecdd7a2f.jpg"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 60,
-            "font_min_size": 20,
-            "chosen_font_size": 60,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t019/t019.png"
+  "t019": {
+    "prompt_text": "A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of Rembrandt.",
+    "seed": 7450554894421817555,
+    "seed_key": "A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of Rembrandt.|ideate|lluminate",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "lluminate"
+    },
+    "left": {
+      "label": "ideate"
+    },
+    "right": {
+      "label": "lluminate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 60,
+      "font_min_size": 20,
+      "chosen_font_size": 60,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

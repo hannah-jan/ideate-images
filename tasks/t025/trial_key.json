@@ -1,72 +1,40 @@
 {
-    "t025": {
-        "prompt_text": "A high resolution photo of a donkey in a clown costume giving a lecture at the front of a lecture hall. The blackboard has mathematical equations on it. There are many students in the lecture hall.",
-        "seed": 15675922092752306017,
-        "seed_key": "A high resolution photo of a donkey in a clown costume giving a lecture at the front of a lecture hall. The blackboard has mathematical equations on it. There are many students in the lecture hall.|dp_replay|ideate",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "dp_replay"
-        },
-        "left": {
-            "label": "dp_replay",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_007.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_027.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_036.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_040.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_041.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_044.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_046.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_049.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_050.png"
-            ]
-        },
-        "right": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_007.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_031.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_002.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_004.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_036.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_047.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_027.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_018.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_039.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_045.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_014.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_017.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_041.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_016.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_003.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task008__a_high_resolution_photo_of_a_donkey_in_a_clown_costume_giving_a_/sol_006.png"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 52,
-            "font_min_size": 20,
-            "chosen_font_size": 52,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t025/t025.png"
+  "t025": {
+    "prompt_text": "A high resolution photo of a donkey in a clown costume giving a lecture at the front of a lecture hall. The blackboard has mathematical equations on it. There are many students in the lecture hall.",
+    "seed": 15675922092752306017,
+    "seed_key": "A high resolution photo of a donkey in a clown costume giving a lecture at the front of a lecture hall. The blackboard has mathematical equations on it. There are many students in the lecture hall.|dp_replay|ideate",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "dp_replay"
+    },
+    "left": {
+      "label": "dp_replay"
+    },
+    "right": {
+      "label": "ideate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 52,
+      "font_min_size": 20,
+      "chosen_font_size": 52,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

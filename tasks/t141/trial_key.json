@@ -1,79 +1,40 @@
 {
-    "t141": {
-        "prompt_text": "a map of Texas",
-        "seed": 3313377999043379465,
-        "seed_key": "a map of Texas|ideate|qdaif",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "qdaif"
-        },
-        "left": {
-            "label": "qdaif",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task037__a_map_of_texas",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task037__a_map_of_texas/qdaif_run_20260108_053658_it_0027.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task037__a_map_of_texas/qdaif_run_20260108_053658_it_0020.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task037__a_map_of_texas/qdaif_run_20260108_053658_it_0021.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task037__a_map_of_texas/qdaif_run_20260108_053658_it_0032.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task037__a_map_of_texas/qdaif_run_20260108_053658_it_0008.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task037__a_map_of_texas/qdaif_run_20260108_053658_it_0015.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task037__a_map_of_texas/qdaif_run_20260108_053658_it_0016.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task037__a_map_of_texas/qdaif_run_20260108_053658_seed_003.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task037__a_map_of_texas/qdaif_run_20260108_053658_it_0010.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task037__a_map_of_texas/qdaif_run_20260108_053658_it_0003.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task037__a_map_of_texas/qdaif_run_20260108_053658_it_0036.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task037__a_map_of_texas/qdaif_run_20260108_053658_seed_004.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task037__a_map_of_texas/qdaif_run_20260108_053658_it_0009.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task037__a_map_of_texas/qdaif_run_20260108_053658_it_0001.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task037__a_map_of_texas/qdaif_run_20260108_053658_it_0029.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task037__a_map_of_texas/qdaif_run_20260108_053658_it_0002.png"
-            ]
-        },
-        "right": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_019.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_028.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_025.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_013.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_046.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_027.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_009.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_018.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_004.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_006.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_034.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_030.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_022.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_014.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_024.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task037__a_map_of_texas/sol_039.png"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 64,
-            "font_min_size": 20,
-            "chosen_font_size": 64,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t141/t141.png"
+  "t141": {
+    "prompt_text": "a map of Texas",
+    "seed": 3313377999043379465,
+    "seed_key": "a map of Texas|ideate|qdaif",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "qdaif"
+    },
+    "left": {
+      "label": "qdaif"
+    },
+    "right": {
+      "label": "ideate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 64,
+      "font_min_size": 20,
+      "chosen_font_size": 64,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

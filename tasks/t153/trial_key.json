@@ -1,79 +1,40 @@
 {
-    "t153": {
-        "prompt_text": "a comic about a boy going to school",
-        "seed": 14706284576377747002,
-        "seed_key": "a comic about a boy going to school|ideate|lluminate",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "lluminate"
-        },
-        "left": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task040__a_comic_about_a_boy_going_to_school",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task040__a_comic_about_a_boy_going_to_school/sol_022.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task040__a_comic_about_a_boy_going_to_school/sol_015.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task040__a_comic_about_a_boy_going_to_school/sol_033.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task040__a_comic_about_a_boy_going_to_school/sol_013.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task040__a_comic_about_a_boy_going_to_school/sol_020.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task040__a_comic_about_a_boy_going_to_school/sol_036.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task040__a_comic_about_a_boy_going_to_school/sol_011.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task040__a_comic_about_a_boy_going_to_school/sol_021.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task040__a_comic_about_a_boy_going_to_school/sol_008.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task040__a_comic_about_a_boy_going_to_school/sol_005.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task040__a_comic_about_a_boy_going_to_school/sol_009.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task040__a_comic_about_a_boy_going_to_school/sol_023.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task040__a_comic_about_a_boy_going_to_school/sol_024.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task040__a_comic_about_a_boy_going_to_school/sol_012.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task040__a_comic_about_a_boy_going_to_school/sol_040.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task040__a_comic_about_a_boy_going_to_school/sol_039.png"
-            ]
-        },
-        "right": {
-            "label": "lluminate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task040__a_comic_about_a_boy_going_to_school",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task040__a_comic_about_a_boy_going_to_school/b124f1a6-c768-4648-9655-8555a9f0f82d.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task040__a_comic_about_a_boy_going_to_school/f24c2d93-50cc-40d0-991e-f78f885a815a.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task040__a_comic_about_a_boy_going_to_school/8a573cb3-76f3-4604-bbbf-0d8b484aa82b.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task040__a_comic_about_a_boy_going_to_school/7de542d4-891b-41ce-bd9c-b10105dd8e15.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task040__a_comic_about_a_boy_going_to_school/bf6c716e-8673-4e59-b650-0ffedfafd4c1.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task040__a_comic_about_a_boy_going_to_school/6894b04f-f1a0-4591-9823-d845c3acd402.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task040__a_comic_about_a_boy_going_to_school/c01b98af-4763-4dc9-bb6b-b865ae2d535a.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task040__a_comic_about_a_boy_going_to_school/5e28ef95-5348-4d75-8786-f20d9ae0902f.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task040__a_comic_about_a_boy_going_to_school/cbc236f9-47ca-410b-86d1-f6f8805a5f25.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task040__a_comic_about_a_boy_going_to_school/1fb3f9ec-944a-4a7b-9ceb-05bee0c5669f.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task040__a_comic_about_a_boy_going_to_school/046cd1e5-5cab-4b9f-aa99-ac4a28801fd1.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task040__a_comic_about_a_boy_going_to_school/745a25fb-b58a-429a-9d45-13fb48f76ed9.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task040__a_comic_about_a_boy_going_to_school/3ab02402-a714-4cc3-a54b-962dc41fbc81.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task040__a_comic_about_a_boy_going_to_school/68590e57-9aff-43a2-ad5e-c9c1889b9fa7.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task040__a_comic_about_a_boy_going_to_school/e8e5ef1f-2c81-44a4-8cf7-b232fff8a4b0.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task040__a_comic_about_a_boy_going_to_school/4d6f321a-e2c3-4e63-b85d-87cb738e1658.jpg"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 80,
-            "font_min_size": 20,
-            "chosen_font_size": 80,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t153/t153.png"
+  "t153": {
+    "prompt_text": "a comic about a boy going to school",
+    "seed": 14706284576377747002,
+    "seed_key": "a comic about a boy going to school|ideate|lluminate",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "lluminate"
+    },
+    "left": {
+      "label": "ideate"
+    },
+    "right": {
+      "label": "lluminate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 80,
+      "font_min_size": 20,
+      "chosen_font_size": 80,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

@@ -1,79 +1,40 @@
 {
-    "t079": {
-        "prompt_text": "side view of a brown horse wearing a saddle. the number 55 is stamped in white on its rear flank.",
-        "seed": 16023845964551118406,
-        "seed_key": "side view of a brown horse wearing a saddle. the number 55 is stamped in white on its rear flank.|ideate|qdaif",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "qdaif"
-        },
-        "left": {
-            "label": "qdaif",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/qdaif_run_20260108_015853_it_0011.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/qdaif_run_20260108_015853_it_0007.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/qdaif_run_20260108_015853_it_0013.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/qdaif_run_20260108_015853_it_0004.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/qdaif_run_20260108_015853_it_0001.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/qdaif_run_20260108_015853_it_0037.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/qdaif_run_20260108_015853_it_0019.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/qdaif_run_20260108_015853_it_0030.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/qdaif_run_20260108_015853_it_0041.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/qdaif_run_20260108_015853_it_0008.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/qdaif_run_20260108_015853_it_0039.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/qdaif_run_20260108_015853_it_0020.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/qdaif_run_20260108_015853_it_0036.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/qdaif_run_20260108_015853_it_0010.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/qdaif_run_20260108_015853_it_0045.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/qdaif_run_20260108_015853_seed_004.png"
-            ]
-        },
-        "right": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/sol_029.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/sol_017.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/sol_011.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/sol_003.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/sol_002.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/sol_022.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/sol_032.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/sol_040.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/sol_020.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/sol_027.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/sol_030.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/sol_014.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/sol_010.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/sol_025.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/sol_018.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task021__side_view_of_a_brown_horse_wearing_a_saddle_the_number_55_is_sta/sol_021.png"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 70,
-            "font_min_size": 20,
-            "chosen_font_size": 70,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t079/t079.png"
+  "t079": {
+    "prompt_text": "side view of a brown horse wearing a saddle. the number 55 is stamped in white on its rear flank.",
+    "seed": 16023845964551118406,
+    "seed_key": "side view of a brown horse wearing a saddle. the number 55 is stamped in white on its rear flank.|ideate|qdaif",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "qdaif"
+    },
+    "left": {
+      "label": "qdaif"
+    },
+    "right": {
+      "label": "ideate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 70,
+      "font_min_size": 20,
+      "chosen_font_size": 70,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

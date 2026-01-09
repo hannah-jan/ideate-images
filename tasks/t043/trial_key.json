@@ -1,73 +1,40 @@
 {
-    "t043": {
-        "prompt_text": "a silver doorknocker on a mahoghany door",
-        "seed": 5656288892233327596,
-        "seed_key": "a silver doorknocker on a mahoghany door|ideate|qdaif",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "qdaif"
-        },
-        "left": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_005.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_010.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_034.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_014.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_020.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_028.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_041.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_035.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_008.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_030.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_001.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_044.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_031.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_004.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_033.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task012__a_silver_doorknocker_on_a_mahoghany_door/sol_032.png"
-            ]
-        },
-        "right": {
-            "label": "qdaif",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task012__a_silver_doorknocker_on_a_mahoghany_door",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task012__a_silver_doorknocker_on_a_mahoghany_door/qdaif_run_20260109_072355_it_0001.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task012__a_silver_doorknocker_on_a_mahoghany_door/qdaif_run_20260109_072355_it_0008.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task012__a_silver_doorknocker_on_a_mahoghany_door/qdaif_run_20260109_072355_it_0010.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task012__a_silver_doorknocker_on_a_mahoghany_door/qdaif_run_20260109_072355_it_0013.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task012__a_silver_doorknocker_on_a_mahoghany_door/qdaif_run_20260109_072355_it_0014.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task012__a_silver_doorknocker_on_a_mahoghany_door/qdaif_run_20260109_072355_it_0020.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task012__a_silver_doorknocker_on_a_mahoghany_door/qdaif_run_20260109_072355_it_0028.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task012__a_silver_doorknocker_on_a_mahoghany_door/qdaif_run_20260109_072355_it_0039.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task012__a_silver_doorknocker_on_a_mahoghany_door/qdaif_run_20260109_072355_seed_001.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/qdaif/task012__a_silver_doorknocker_on_a_mahoghany_door/qdaif_run_20260109_072355_seed_003.png"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 80,
-            "font_min_size": 20,
-            "chosen_font_size": 80,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t043/t043.png"
+  "t043": {
+    "prompt_text": "a silver doorknocker on a mahoghany door",
+    "seed": 5656288892233327596,
+    "seed_key": "a silver doorknocker on a mahoghany door|ideate|qdaif",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "qdaif"
+    },
+    "left": {
+      "label": "ideate"
+    },
+    "right": {
+      "label": "qdaif"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 80,
+      "font_min_size": 20,
+      "chosen_font_size": 80,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

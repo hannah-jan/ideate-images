@@ -1,79 +1,40 @@
 {
-    "t161": {
-        "prompt_text": "Two cups of coffee, one with latte art of a heart. The other has latte art of stars.",
-        "seed": 12046469452867486399,
-        "seed_key": "Two cups of coffee, one with latte art of a heart. The other has latte art of stars.|dp_replay|ideate",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "dp_replay"
-        },
-        "left": {
-            "label": "dp_replay",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_040.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_049.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_003.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_024.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_038.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_048.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_042.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_001.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_011.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_020.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_047.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_043.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_019.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_031.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_016.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/dp_replay/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_005.png"
-            ]
-        },
-        "right": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_029.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_017.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_011.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_025.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_035.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_006.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_007.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_046.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_009.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_026.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_018.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_039.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_022.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_001.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_033.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task043__two_cups_of_coffee_one_with_latte_art_of_a_heart_the_other_has_l/sol_012.png"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 74,
-            "font_min_size": 20,
-            "chosen_font_size": 74,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t161/t161.png"
+  "t161": {
+    "prompt_text": "Two cups of coffee, one with latte art of a heart. The other has latte art of stars.",
+    "seed": 12046469452867486399,
+    "seed_key": "Two cups of coffee, one with latte art of a heart. The other has latte art of stars.|dp_replay|ideate",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "dp_replay"
+    },
+    "left": {
+      "label": "dp_replay"
+    },
+    "right": {
+      "label": "ideate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 74,
+      "font_min_size": 20,
+      "chosen_font_size": 74,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

@@ -1,79 +1,40 @@
 {
-    "t088": {
-        "prompt_text": "an extreme close-up view of a capybara sitting in a field",
-        "seed": 6150885368784128417,
-        "seed_key": "an extreme close-up view of a capybara sitting in a field|ideate|lluminate",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "lluminate"
-        },
-        "left": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/sol_028.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/sol_011.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/sol_030.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/sol_004.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/sol_016.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/sol_029.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/sol_008.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/sol_017.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/sol_024.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/sol_020.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/sol_019.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/sol_014.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/sol_015.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/sol_009.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/sol_012.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/sol_025.png"
-            ]
-        },
-        "right": {
-            "label": "lluminate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/06fab6d8-98af-42a4-8605-cdfe9a4c1efd.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/5d408025-8264-48ad-a4a9-88171217f2a5.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/b1c96a56-596e-4731-908b-f91891f77d8e.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/6da07657-7de3-415e-8ff2-7c5b01bbf369.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/26c302da-b7fc-4bd5-b1da-afa680b28eef.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/df59d6b9-34f8-4e09-b756-b885538542ca.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/eff90230-676d-49b7-a821-6f384a602113.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/576cea85-b7f1-4470-83b9-7b95c2092cf9.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/e7a3b706-fe21-4e82-934e-02eaf8e1216b.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/1ae48e7a-f11f-4d4b-9005-05f53c55b378.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/ba1fb9b0-cb40-458d-bd3b-17baff2e6faf.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/c72e4f3b-7c10-4bcc-a104-07f51f20ebd5.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/39d86123-c0d4-4196-bd15-d5f29e7f386a.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/8ec57490-39c8-4234-8056-780ec5ea81af.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/c3dca0f6-0263-4baf-b6c3-3372ef19cdd2.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task023__an_extreme_close_up_view_of_a_capybara_sitting_in_a_field/078428e4-30ad-45ad-bdf1-f2db968c624c.jpg"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 80,
-            "font_min_size": 20,
-            "chosen_font_size": 80,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t088/t088.png"
+  "t088": {
+    "prompt_text": "an extreme close-up view of a capybara sitting in a field",
+    "seed": 6150885368784128417,
+    "seed_key": "an extreme close-up view of a capybara sitting in a field|ideate|lluminate",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "lluminate"
+    },
+    "left": {
+      "label": "ideate"
+    },
+    "right": {
+      "label": "lluminate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 80,
+      "font_min_size": 20,
+      "chosen_font_size": 80,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

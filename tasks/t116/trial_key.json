@@ -1,79 +1,40 @@
 {
-    "t116": {
-        "prompt_text": "a bunch of laptops piled on a sofa",
-        "seed": 13987748875130848643,
-        "seed_key": "a bunch of laptops piled on a sofa|ideate|lluminate",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "lluminate"
-        },
-        "left": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task030__a_bunch_of_laptops_piled_on_a_sofa",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task030__a_bunch_of_laptops_piled_on_a_sofa/sol_017.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task030__a_bunch_of_laptops_piled_on_a_sofa/sol_045.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task030__a_bunch_of_laptops_piled_on_a_sofa/sol_032.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task030__a_bunch_of_laptops_piled_on_a_sofa/sol_018.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task030__a_bunch_of_laptops_piled_on_a_sofa/sol_021.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task030__a_bunch_of_laptops_piled_on_a_sofa/sol_014.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task030__a_bunch_of_laptops_piled_on_a_sofa/sol_025.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task030__a_bunch_of_laptops_piled_on_a_sofa/sol_007.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task030__a_bunch_of_laptops_piled_on_a_sofa/sol_010.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task030__a_bunch_of_laptops_piled_on_a_sofa/sol_015.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task030__a_bunch_of_laptops_piled_on_a_sofa/sol_002.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task030__a_bunch_of_laptops_piled_on_a_sofa/sol_006.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task030__a_bunch_of_laptops_piled_on_a_sofa/sol_012.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task030__a_bunch_of_laptops_piled_on_a_sofa/sol_009.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task030__a_bunch_of_laptops_piled_on_a_sofa/sol_023.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task030__a_bunch_of_laptops_piled_on_a_sofa/sol_026.png"
-            ]
-        },
-        "right": {
-            "label": "lluminate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task030__a_bunch_of_laptops_piled_on_a_sofa",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task030__a_bunch_of_laptops_piled_on_a_sofa/e3e99e7d-f4fd-4de4-bc81-ac92adce760e.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task030__a_bunch_of_laptops_piled_on_a_sofa/7b5af53b-9daa-4c4e-a913-222124a86e2d.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task030__a_bunch_of_laptops_piled_on_a_sofa/1380f9a2-5f09-40c6-be9b-a161c7b856ac.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task030__a_bunch_of_laptops_piled_on_a_sofa/29bd840d-ffac-410c-8c06-7ec4940132c3.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task030__a_bunch_of_laptops_piled_on_a_sofa/a0f2f54d-3fa1-4ef3-a7f4-11629f3452ce.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task030__a_bunch_of_laptops_piled_on_a_sofa/5d0cd5bf-a126-44b0-a3eb-deee7b54dcd7.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task030__a_bunch_of_laptops_piled_on_a_sofa/b9bd4051-f6ff-4dd2-ad2b-06e67f05d187.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task030__a_bunch_of_laptops_piled_on_a_sofa/47f44672-a081-498d-ae8f-ce161ff4408a.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task030__a_bunch_of_laptops_piled_on_a_sofa/7f459c96-38b4-499b-87c5-93fd06fe21d7.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task030__a_bunch_of_laptops_piled_on_a_sofa/eed86a48-0e3b-474c-8227-6c33638ebbf0.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task030__a_bunch_of_laptops_piled_on_a_sofa/4e146716-cd47-4b94-a1f3-2add9ae131a5.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task030__a_bunch_of_laptops_piled_on_a_sofa/d88779d6-82ff-416e-b3fa-f9d29977a749.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task030__a_bunch_of_laptops_piled_on_a_sofa/665d5ad9-edde-4a2c-ada7-1bff2ce002a0.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task030__a_bunch_of_laptops_piled_on_a_sofa/be01fe56-51e0-4b93-ae2d-ac9cbdef0aca.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task030__a_bunch_of_laptops_piled_on_a_sofa/9255a83d-a695-49d4-ad38-9be46eec4b60.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task030__a_bunch_of_laptops_piled_on_a_sofa/9e0c0cea-14b2-4313-9e96-49d27a296bb6.jpg"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 80,
-            "font_min_size": 20,
-            "chosen_font_size": 80,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t116/t116.png"
+  "t116": {
+    "prompt_text": "a bunch of laptops piled on a sofa",
+    "seed": 13987748875130848643,
+    "seed_key": "a bunch of laptops piled on a sofa|ideate|lluminate",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "lluminate"
+    },
+    "left": {
+      "label": "ideate"
+    },
+    "right": {
+      "label": "lluminate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 80,
+      "font_min_size": 20,
+      "chosen_font_size": 80,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

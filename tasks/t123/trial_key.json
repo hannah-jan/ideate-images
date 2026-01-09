@@ -1,79 +1,40 @@
 {
-    "t123": {
-        "prompt_text": "a family of four posing at the Grand Canyon",
-        "seed": 9939712719672844131,
-        "seed_key": "a family of four posing at the Grand Canyon|ideate|lluminate",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "lluminate"
-        },
-        "left": {
-            "label": "lluminate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task032__a_family_of_four_posing_at_the_grand_canyon",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task032__a_family_of_four_posing_at_the_grand_canyon/27b31571-b411-4df7-8e08-86867176b266.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task032__a_family_of_four_posing_at_the_grand_canyon/aa878152-225a-43c4-92af-294d92bc8fc0.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task032__a_family_of_four_posing_at_the_grand_canyon/3515d8bf-82d0-4b80-ad3e-d40535e29e29.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task032__a_family_of_four_posing_at_the_grand_canyon/90513897-00d5-4777-b63c-b9b6bf22aee9.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task032__a_family_of_four_posing_at_the_grand_canyon/285508ac-3b5a-447d-9cf3-e581fb90559f.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task032__a_family_of_four_posing_at_the_grand_canyon/91e86d55-4c92-4c45-86bd-29bc56a22f7a.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task032__a_family_of_four_posing_at_the_grand_canyon/896a8faf-8f37-4a16-944f-c0392991064a.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task032__a_family_of_four_posing_at_the_grand_canyon/25cc7779-2bd4-43cd-a1e4-5ac7051799a8.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task032__a_family_of_four_posing_at_the_grand_canyon/33879388-3c25-492a-a919-dddf2e8d47be.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task032__a_family_of_four_posing_at_the_grand_canyon/f5144f4e-9673-4fc6-a2a6-6a4e977a63b0.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task032__a_family_of_four_posing_at_the_grand_canyon/a15f9c9a-2b55-4254-bb59-1fffa2501487.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task032__a_family_of_four_posing_at_the_grand_canyon/243910ee-3a1d-4694-844c-e3040c95f666.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task032__a_family_of_four_posing_at_the_grand_canyon/ced4d90c-b5e5-412a-be27-b81648c4cbfd.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task032__a_family_of_four_posing_at_the_grand_canyon/cb13af36-721d-4d4a-bcdb-73ea8ed8d71c.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task032__a_family_of_four_posing_at_the_grand_canyon/0b524625-8786-4949-8ba9-67daa217309b.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task032__a_family_of_four_posing_at_the_grand_canyon/153b4231-68e7-4752-96ba-afbdb968081f.jpg"
-            ]
-        },
-        "right": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task032__a_family_of_four_posing_at_the_grand_canyon",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task032__a_family_of_four_posing_at_the_grand_canyon/sol_024.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task032__a_family_of_four_posing_at_the_grand_canyon/sol_023.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task032__a_family_of_four_posing_at_the_grand_canyon/sol_046.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task032__a_family_of_four_posing_at_the_grand_canyon/sol_009.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task032__a_family_of_four_posing_at_the_grand_canyon/sol_030.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task032__a_family_of_four_posing_at_the_grand_canyon/sol_002.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task032__a_family_of_four_posing_at_the_grand_canyon/sol_012.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task032__a_family_of_four_posing_at_the_grand_canyon/sol_019.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task032__a_family_of_four_posing_at_the_grand_canyon/sol_022.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task032__a_family_of_four_posing_at_the_grand_canyon/sol_020.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task032__a_family_of_four_posing_at_the_grand_canyon/sol_050.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task032__a_family_of_four_posing_at_the_grand_canyon/sol_011.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task032__a_family_of_four_posing_at_the_grand_canyon/sol_004.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task032__a_family_of_four_posing_at_the_grand_canyon/sol_017.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task032__a_family_of_four_posing_at_the_grand_canyon/sol_006.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task032__a_family_of_four_posing_at_the_grand_canyon/sol_031.png"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 80,
-            "font_min_size": 20,
-            "chosen_font_size": 80,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t123/t123.png"
+  "t123": {
+    "prompt_text": "a family of four posing at the Grand Canyon",
+    "seed": 9939712719672844131,
+    "seed_key": "a family of four posing at the Grand Canyon|ideate|lluminate",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "lluminate"
+    },
+    "left": {
+      "label": "lluminate"
+    },
+    "right": {
+      "label": "ideate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 80,
+      "font_min_size": 20,
+      "chosen_font_size": 80,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

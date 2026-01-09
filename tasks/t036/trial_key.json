@@ -1,79 +1,40 @@
 {
-    "t036": {
-        "prompt_text": "a barred owl peeking out from dense tree branches",
-        "seed": 16608825867206606234,
-        "seed_key": "a barred owl peeking out from dense tree branches|ideate|lluminate",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "lluminate"
-        },
-        "left": {
-            "label": "lluminate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task010__a_barred_owl_peeking_out_from_dense_tree_branches",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/4c389799-3edd-4f71-97ae-68399d0701b5.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/ec1b1a9d-1a07-426b-907d-d2e93eb77d58.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/3c61cea8-4348-4bd2-8445-b9b49651bd62.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/80ec1aeb-27fe-4758-bd26-7a3ec23b7b5f.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/5ad5b213-c99e-4f70-b75f-eb6bf8b205cb.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/21a3d018-064e-49b1-8315-945889b07311.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/d8974b25-0b69-4dd9-a407-68b267cb9a99.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/a992dec8-b1d9-4fb8-8b91-30a4da6ca027.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/b84fdf8a-d8b3-4879-aa81-58b0b4c29b1b.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/4a4e44df-928e-40d1-973a-979d5fc964f5.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/20398313-4a0a-45ed-acc6-ea8ded2e8b83.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/83ec9c3f-d4eb-4f40-843b-4db3e373203c.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/0be74459-84a7-4641-9db2-e43a3d317a41.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/df26f7e4-c514-4abc-bec9-9731bfa9cf03.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/dd9f5c27-7c4f-4fa8-8ee4-96763b1ef926.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/dc508e97-01b4-42ba-9f11-c891df7424ef.jpg"
-            ]
-        },
-        "right": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task010__a_barred_owl_peeking_out_from_dense_tree_branches",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/sol_038.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/sol_044.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/sol_006.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/sol_007.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/sol_005.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/sol_009.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/sol_013.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/sol_017.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/sol_003.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/sol_019.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/sol_031.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/sol_010.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/sol_050.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/sol_002.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/sol_030.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task010__a_barred_owl_peeking_out_from_dense_tree_branches/sol_023.png"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 80,
-            "font_min_size": 20,
-            "chosen_font_size": 80,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t036/t036.png"
+  "t036": {
+    "prompt_text": "a barred owl peeking out from dense tree branches",
+    "seed": 16608825867206606234,
+    "seed_key": "a barred owl peeking out from dense tree branches|ideate|lluminate",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "lluminate"
+    },
+    "left": {
+      "label": "lluminate"
+    },
+    "right": {
+      "label": "ideate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 80,
+      "font_min_size": 20,
+      "chosen_font_size": 80,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

@@ -1,79 +1,40 @@
 {
-    "t068": {
-        "prompt_text": "supercalifragilisticexpialidocious",
-        "seed": 14470385110923946794,
-        "seed_key": "supercalifragilisticexpialidocious|ideate|lluminate",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "lluminate"
-        },
-        "left": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task018__supercalifragilisticexpialidocious",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task018__supercalifragilisticexpialidocious/sol_001.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task018__supercalifragilisticexpialidocious/sol_016.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task018__supercalifragilisticexpialidocious/sol_013.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task018__supercalifragilisticexpialidocious/sol_021.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task018__supercalifragilisticexpialidocious/sol_017.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task018__supercalifragilisticexpialidocious/sol_025.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task018__supercalifragilisticexpialidocious/sol_006.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task018__supercalifragilisticexpialidocious/sol_023.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task018__supercalifragilisticexpialidocious/sol_024.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task018__supercalifragilisticexpialidocious/sol_014.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task018__supercalifragilisticexpialidocious/sol_004.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task018__supercalifragilisticexpialidocious/sol_022.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task018__supercalifragilisticexpialidocious/sol_044.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task018__supercalifragilisticexpialidocious/sol_010.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task018__supercalifragilisticexpialidocious/sol_026.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task018__supercalifragilisticexpialidocious/sol_039.png"
-            ]
-        },
-        "right": {
-            "label": "lluminate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task018__supercalifragilisticexpialidocious",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task018__supercalifragilisticexpialidocious/c7087fd2-8334-4c3d-99c5-bdbd817fca68.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task018__supercalifragilisticexpialidocious/5b904150-f40a-479b-a2c2-55267879233d.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task018__supercalifragilisticexpialidocious/5f41c742-7e09-4919-9d87-446d85e6f152.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task018__supercalifragilisticexpialidocious/f40397b9-925f-43ac-ae97-a0be4710dbd3.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task018__supercalifragilisticexpialidocious/a6db1a34-5b50-4c25-b4a6-f5c10a2e1bad.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task018__supercalifragilisticexpialidocious/5e393264-940f-4394-9270-9e601df7afa4.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task018__supercalifragilisticexpialidocious/b4bb084e-f8ac-4c65-8cc5-503c5f9b5ed7.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task018__supercalifragilisticexpialidocious/16978f53-5d3a-4cab-a312-ecaf6a3d85ea.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task018__supercalifragilisticexpialidocious/1e3e53d7-18bd-43fc-87fe-fb82429cd374.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task018__supercalifragilisticexpialidocious/19dcf328-38f8-4488-81e0-eb9131c1cdc6.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task018__supercalifragilisticexpialidocious/9eb12afa-9b90-4425-a485-682902bbaec9.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task018__supercalifragilisticexpialidocious/1937e2f2-243f-460a-8d9a-f715a95132f0.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task018__supercalifragilisticexpialidocious/08b9cb58-867f-408f-9213-a6fd90318300.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task018__supercalifragilisticexpialidocious/2819acf2-7731-4a55-bc58-a36ab332a008.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task018__supercalifragilisticexpialidocious/78fd2819-6860-4fc8-a12f-47dbc1566c50.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task018__supercalifragilisticexpialidocious/bed801ed-8084-4d4b-b901-4cb78220f04d.jpg"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 80,
-            "font_min_size": 20,
-            "chosen_font_size": 80,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t068/t068.png"
+  "t068": {
+    "prompt_text": "supercalifragilisticexpialidocious",
+    "seed": 14470385110923946794,
+    "seed_key": "supercalifragilisticexpialidocious|ideate|lluminate",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "lluminate"
+    },
+    "left": {
+      "label": "ideate"
+    },
+    "right": {
+      "label": "lluminate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 80,
+      "font_min_size": 20,
+      "chosen_font_size": 80,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

@@ -1,79 +1,40 @@
 {
-    "t119": {
-        "prompt_text": "300 movie titles",
-        "seed": 2202424453500117004,
-        "seed_key": "300 movie titles|ideate|lluminate",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "lluminate"
-        },
-        "left": {
-            "label": "lluminate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task031__300_movie_titles",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task031__300_movie_titles/0e0dd1b8-49a2-4648-9db9-2b7d1ad4cc01.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task031__300_movie_titles/0b772fc9-5dad-4e67-ac56-d6f3a3f1964f.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task031__300_movie_titles/b71aa084-8760-4ac5-855e-416fa8abb370.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task031__300_movie_titles/692803ae-4500-48d1-b75f-a787d9cac307.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task031__300_movie_titles/8db2af87-cfda-42d0-b94a-ede483b994a1.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task031__300_movie_titles/ef437082-47f8-4dd1-869a-44f72a2b85b9.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task031__300_movie_titles/1fa554c3-4454-4bce-8688-07909b59dc13.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task031__300_movie_titles/9fccfbb8-446f-44b0-b45d-f7e6ddbc773f.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task031__300_movie_titles/b4997bf7-c579-4fd6-9300-d2d01f885ddf.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task031__300_movie_titles/3f82f6f5-b36d-45fe-9af0-928569c14dd0.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task031__300_movie_titles/c4131808-9c01-4ba0-a7db-199c8cb1898e.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task031__300_movie_titles/b3b9b5c1-a289-4215-a764-7d48785f5c89.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task031__300_movie_titles/d7779e18-f073-4b00-aa30-f6619fc8ef65.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task031__300_movie_titles/a1bf46fe-c964-4a00-bf5f-5e5c4cd240e7.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task031__300_movie_titles/1d2c7a77-7739-4420-ad48-1f5a8832789e.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task031__300_movie_titles/05bc4194-672b-4382-921f-f1b81b4c4058.jpg"
-            ]
-        },
-        "right": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task031__300_movie_titles",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task031__300_movie_titles/sol_013.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task031__300_movie_titles/sol_022.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task031__300_movie_titles/sol_018.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task031__300_movie_titles/sol_012.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task031__300_movie_titles/sol_035.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task031__300_movie_titles/sol_028.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task031__300_movie_titles/sol_027.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task031__300_movie_titles/sol_019.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task031__300_movie_titles/sol_038.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task031__300_movie_titles/sol_032.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task031__300_movie_titles/sol_010.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task031__300_movie_titles/sol_039.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task031__300_movie_titles/sol_047.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task031__300_movie_titles/sol_017.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task031__300_movie_titles/sol_036.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task031__300_movie_titles/sol_030.png"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 64,
-            "font_min_size": 20,
-            "chosen_font_size": 64,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t119/t119.png"
+  "t119": {
+    "prompt_text": "300 movie titles",
+    "seed": 2202424453500117004,
+    "seed_key": "300 movie titles|ideate|lluminate",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "lluminate"
+    },
+    "left": {
+      "label": "lluminate"
+    },
+    "right": {
+      "label": "ideate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 64,
+      "font_min_size": 20,
+      "chosen_font_size": 64,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }

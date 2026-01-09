@@ -1,79 +1,40 @@
 {
-    "t040": {
-        "prompt_text": "a man riding a camel on the beach",
-        "seed": 10761125435499904175,
-        "seed_key": "a man riding a camel on the beach|ideate|lluminate",
-        "my_side": null,
-        "methods": {
-            "method_a": "ideate",
-            "method_b": "lluminate"
-        },
-        "left": {
-            "label": "lluminate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task011__a_man_riding_a_camel_on_the_beach",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task011__a_man_riding_a_camel_on_the_beach/51ca3447-9ff4-4d62-9933-2522b8cd1b82.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task011__a_man_riding_a_camel_on_the_beach/2a7adc1e-ebaf-4063-8f8c-173ae07cf0c2.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task011__a_man_riding_a_camel_on_the_beach/eaef5c0e-c502-41d7-9c9c-7a85dce546ef.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task011__a_man_riding_a_camel_on_the_beach/fc23d951-c562-47f9-8655-db11fe098323.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task011__a_man_riding_a_camel_on_the_beach/4bb76810-0d79-4c51-9ad4-59e661990986.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task011__a_man_riding_a_camel_on_the_beach/5b75b8b9-2a78-4de0-bab8-9ad1f1e89339.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task011__a_man_riding_a_camel_on_the_beach/8c670824-5ac7-4639-89ad-54492bd037b9.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task011__a_man_riding_a_camel_on_the_beach/cac223a3-d606-4241-9eb2-03a46a264cd5.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task011__a_man_riding_a_camel_on_the_beach/9a6afa32-e748-447c-a3ec-83124746e5c0.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task011__a_man_riding_a_camel_on_the_beach/9ec1be06-8445-45a2-9172-e639ab49264b.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task011__a_man_riding_a_camel_on_the_beach/7d9f6235-fbb7-4c8a-aed4-639800b20ce4.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task011__a_man_riding_a_camel_on_the_beach/9727f0c8-58a4-4179-ae7b-b813923eeee8.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task011__a_man_riding_a_camel_on_the_beach/a3131e71-636f-49f3-8ba5-628293f64a46.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task011__a_man_riding_a_camel_on_the_beach/b9864f06-eca6-4319-ad64-ca73a27be0b0.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task011__a_man_riding_a_camel_on_the_beach/be4c2b8b-69e0-40d5-9aba-8377d1e95e98.jpg",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/lluminate/task011__a_man_riding_a_camel_on_the_beach/4e26c194-d254-41bb-a7bc-8cc44da36f38.jpg"
-            ]
-        },
-        "right": {
-            "label": "ideate",
-            "dir": "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task011__a_man_riding_a_camel_on_the_beach",
-            "images": [
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task011__a_man_riding_a_camel_on_the_beach/sol_044.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task011__a_man_riding_a_camel_on_the_beach/sol_029.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task011__a_man_riding_a_camel_on_the_beach/sol_031.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task011__a_man_riding_a_camel_on_the_beach/sol_008.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task011__a_man_riding_a_camel_on_the_beach/sol_023.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task011__a_man_riding_a_camel_on_the_beach/sol_028.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task011__a_man_riding_a_camel_on_the_beach/sol_019.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task011__a_man_riding_a_camel_on_the_beach/sol_006.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task011__a_man_riding_a_camel_on_the_beach/sol_022.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task011__a_man_riding_a_camel_on_the_beach/sol_025.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task011__a_man_riding_a_camel_on_the_beach/sol_017.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task011__a_man_riding_a_camel_on_the_beach/sol_026.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task011__a_man_riding_a_camel_on_the_beach/sol_018.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task011__a_man_riding_a_camel_on_the_beach/sol_007.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task011__a_man_riding_a_camel_on_the_beach/sol_004.png",
-                "/Users/william/repos/IDEATE/zcomparisons/_final_archives/ideate/task011__a_man_riding_a_camel_on_the_beach/sol_030.png"
-            ]
-        },
-        "layout": {
-            "thumbnail_size": [
-                384,
-                216
-            ],
-            "grid_padding": 8,
-            "outer_margin": 60,
-            "section_gap": 220,
-            "header_height": 220,
-            "header_gap": 40,
-            "font_max_size": 80,
-            "dynamic_font_max_size": 80,
-            "font_min_size": 20,
-            "chosen_font_size": 80,
-            "header_text_safe_margin_x": 60,
-            "header_text_safe_margin_y": 20,
-            "fit_mode": "cover",
-            "font_bold": true,
-            "fake_bold_px": 1,
-            "letter_spacing_px": 2,
-            "font_path": "/System/Library/Fonts/SFNS.ttf"
-        },
-        "output_png": "/Users/william/repos/IDEATE/zcomparisons/t040/t040.png"
+  "t040": {
+    "prompt_text": "a man riding a camel on the beach",
+    "seed": 10761125435499904175,
+    "seed_key": "a man riding a camel on the beach|ideate|lluminate",
+    "my_side": null,
+    "methods": {
+      "method_a": "ideate",
+      "method_b": "lluminate"
+    },
+    "left": {
+      "label": "lluminate"
+    },
+    "right": {
+      "label": "ideate"
+    },
+    "layout": {
+      "thumbnail_size": [
+        384,
+        216
+      ],
+      "grid_padding": 8,
+      "outer_margin": 60,
+      "section_gap": 220,
+      "header_height": 220,
+      "header_gap": 40,
+      "font_max_size": 80,
+      "dynamic_font_max_size": 80,
+      "font_min_size": 20,
+      "chosen_font_size": 80,
+      "header_text_safe_margin_x": 60,
+      "header_text_safe_margin_y": 20,
+      "fit_mode": "cover",
+      "font_bold": true,
+      "fake_bold_px": 1,
+      "letter_spacing_px": 2,
+      "font_path": "/System/Library/Fonts/SFNS.ttf"
     }
+  }
 }
